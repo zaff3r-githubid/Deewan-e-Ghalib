@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start -p 3033",
     "lint": "eslint",
-    "seed": "node scripts/seed.js"
+    "seed": "node scripts/seed.js",
+    "predeploy": "npm run seed",
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@google/genai": "^2.10.0",
@@ -22,6 +24,7 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
   }
 }
