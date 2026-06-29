@@ -1,0 +1,241 @@
+{
+  "ghazals": [
+    {
+      "title": "Dil-e-nadaan tujhe hua kya hai",
+      "urdu_title": "دلِ ناداں تجھے ہوا کیا ہے",
+      "poet": "Mirza Ghalib",
+      "couplets": [
+        {
+          "couplet_number": 1,
+          "urdu_text": "دلِ ناداں تجھے ہوا کیا ہے\nآخر اس درد کی دوا کیا ہے",
+          "transliteration": "Dil-e-nadaan tujhe hua kya hai\nAakhir is dard ki dawa kya hai",
+          "translation": "O foolish heart, what has happened to you?\nAfter all, what is the cure for this pain?",
+          "explanation": "In this iconic opening couplet, Ghalib addresses his own heart as 'nadaan' (foolish or naive). He questions the origin of the longing and desire that is causing it pain, realizing that there is no obvious medicine or remedy for the affliction of love and existential restlessness.\n\nGhalib masterfully contrasts the heart's natural innocence and ignorance with the harsh reality of pain. The poem opens with a self-reflective question that captures the irony of human desire: we seek love knowing it leads to suffering, and then wonder why we suffer.\n\nThe word 'dawa' (cure) here is not merely physical. It hints at Ghalib's philosophical skepticism. If the heart is foolish, perhaps its pain is also self-created, meaning the only true cure is self-awareness, or indeed, the end of life itself.",
+          "context": "Ghalib frequently engages in self-dialogue. By calling his heart 'nadaan', he creates a distance between his intellectual, observing self and his emotional, suffering self.\n\nThis division allows him to look at his own psychological state with a mix of irony and sympathy, a style that broke away from traditional self-pity in Urdu ghazals.",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "دلِ ناداں",
+              "meaning_urdu": "نادان دل، ناسمجھ دل",
+              "meaning_english": "Foolish/innocent heart"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "توجھے",
+              "meaning_urdu": "تجھ کو، تم کو",
+              "meaning_english": "To you"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "ہوا کیا ہے",
+              "meaning_urdu": "کیا ہوا ہے، کیا گزری ہے",
+              "meaning_english": "What has happened"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "آخر",
+              "meaning_urdu": "بالآخر، انجام کار",
+              "meaning_english": "After all / finally"
+            },
+            {
+              "word_order": 5,
+              "word_urdu": "درد",
+              "meaning_urdu": "تکلیف، غم، دکھ",
+              "meaning_english": "Pain / sorrow"
+            },
+            {
+              "word_order": 6,
+              "word_urdu": "دوا",
+              "meaning_urdu": "علاج، شفا",
+              "meaning_english": "Cure / medicine"
+            }
+          ]
+        },
+        {
+          "couplet_number": 2,
+          "urdu_text": "ہم ہیں مشتاق اور وہ بیزار\nیا الٰہی یہ ماجرا کیا ہے",
+          "transliteration": "Hum hain mushtaq aur woh bezaar\nYa ilaahi yeh maajra kya hai",
+          "translation": "We are full of desire and they are indifferent;\nO Lord, what is this affair?",
+          "explanation": "The poet contrasts his own intense passion and longing ('mushtaq') with the beloved's utter indifference, annoyance, or weariness ('bezaar'). He turns to God in mock bewilderment, asking why love is structured with such painful, lopsided asymmetry.\n\nGhalib uses the word 'maajra' (happening or phenomenon) to describe the unequal dynamic of love as if it were a grand cosmic puzzle. The irony lies in addressing God ('Ya ilaahi') about a trivial, mortal relationship, showing Ghalib's trademark wit.\n\nInstead of crying in despair, the poet stands back and questions the design of the universe. Why should one heart burn with devotion while the other remains completely detached? It highlights Ghalib's intellectual approach to emotion.",
+          "context": "The asymmetry of love (longing lover vs. indifferent beloved) is a classic theme in Urdu ghazals. Ghalib elevates it here by appealing to the Divine with witty annoyance rather than self-pity.\n\nThis reflects Ghalib's philosophical viewpoint where even human relationships are seen as micro-reflections of the larger, often confusing cosmic order.",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "ہم",
+              "meaning_urdu": "ہم خود (شاعر)",
+              "meaning_english": "We / I"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "مشتاق",
+              "meaning_urdu": "شوق رکھنے والا، آرزومند",
+              "meaning_english": "Eager / longing / full of desire"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "بیزار",
+              "meaning_urdu": "تنگ آیا ہوا، ناخوش، اکتایا ہوا",
+              "meaning_english": "Indifferent / annoyed / displeased"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "یا الٰہی",
+              "meaning_urdu": "اے میرے اللہ، اے خدا",
+              "meaning_english": "O Lord / O my God"
+            },
+            {
+              "word_order": 5,
+              "word_urdu": "ماجرا",
+              "meaning_urdu": "واقعہ، قصہ، معاملہ",
+              "meaning_english": "Affair / happening / phenomenon"
+            }
+          ]
+        },
+        {
+          "couplet_number": 3,
+          "urdu_text": "میں بھی منہ میں زبان رکھتا ہوں\nکاش پوچھو کہ مدعا کیا ہے",
+          "transliteration": "Main bhi munh mein zabaan rakhta hoon\nKaash poochho ke mudda'a kya hai",
+          "translation": "I, too, possess a tongue in my mouth;\nIf only you would ask what my desire is!",
+          "explanation": "The poet complains of being silenced, ignored, or misunderstood. He asserts that he is fully capable of expressing himself, defending his honor, or telling his story if only the beloved showed enough care to ask what his true intent ('mudda'a') is.\n\nUsing the physical idiom 'munh mein zabaan rakhna' (to have a tongue in one's mouth), Ghalib plays on double meanings. Literally, he can speak. Metaphorically, he has arguments, desires, and stories, but he is waiting for the beloved's consent or interest to speak.\n\nThe sigh of 'kaash' (if only) introduces a sense of longing. It suggests that the tragedy is not that the lover has nothing to say, but that the beloved has no desire to listen.",
+          "context": "'Munh mein zabaan rakhna' is a common Urdu idiom meaning to have the ability to speak up for oneself. Ghalib plays on both the physical possession of a tongue and the social right to speak.\n\nThis couplet is often quoted in Urdu culture to describe situations where a silent person has been pushed to assert their voice.",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "منہ",
+              "meaning_urdu": "دہن، چہرہ",
+              "meaning_english": "Mouth"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "زبان",
+              "meaning_urdu": "گفتگو، بولنے کی صلاحیت",
+              "meaning_english": "Tongue / speech capability"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "کاش",
+              "meaning_urdu": "آرزو کا کلمہ، حسرت کا اظہار",
+              "meaning_english": "I wish / if only"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "مدعا",
+              "meaning_urdu": "مقصد، آرزو، مطلب، دعویٰ",
+              "meaning_english": "Desire / purpose / objective"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle",
+      "urdu_title": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+      "poet": "Mirza Ghalib",
+      "couplets": [
+        {
+          "couplet_number": 1,
+          "urdu_text": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے\nبہت نکلے میرے ارمان لیکن پھر بھی کم نکلے",
+          "transliteration": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle\nBohat nikle mere armaan lekin phir bhi kam nikle",
+          "translation": "Thousands of desires, each so intense that it takes my breath away;\nMany of my yearnings were fulfilled, yet they feel all too few.",
+          "explanation": "This is perhaps Ghalib's most celebrated verse. It defines the insatiable nature of human desire. The poet notes that he has thousands of desires, each so intense that it is worth dying for ('dam nikle'). Even though countless desires of his were fulfilled, they still feel like a drop in the ocean compared to what remains unfulfilled.\n\nGhalib outlines a core existential truth: desire is infinite, whereas human life and satisfaction are finite. No matter how many dreams are realized, the human spirit continues to yearn for more, leaving one perpetually unfulfilled.\n\nThe phrasing 'dam nikle' has a double meaning. It represents dying of longing, but it also describes the exhausting and painful process of having a desire consume your life. The word 'armaan' brings a deep emotional weight, indicating that these are not minor wants, but major, soul-defining yearnings.",
+          "context": "Ghalib reflects on the human condition and the endless cycle of wants. It reflects his own biography, marked by great ambitions and financial hardships.\n\nThe verse highlights the transition in Urdu poetry from describing romantic longing to exploring universal human psychology.",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "ہزاروں",
+              "meaning_urdu": "بے شمار، بہت زیادہ",
+              "meaning_english": "Thousands of / countless"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "خواہشیں",
+              "meaning_urdu": "تمنائیں، آرزوئیں",
+              "meaning_english": "Desires / wishes"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "دم نکلے",
+              "meaning_urdu": "جان نکلنا، سانس رکنا، مرنا",
+              "meaning_english": "Life departs / breath escapes"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "ارمان",
+              "meaning_urdu": "شوق، تمنا، دلی خواہش",
+              "meaning_english": "Yearnings / longings"
+            },
+            {
+              "word_order": 5,
+              "word_urdu": "کم نکلے",
+              "meaning_urdu": "تھوڑے ثابت ہوئے، نا کافی رہے",
+              "meaning_english": "Turned out to be few / insufficient"
+            }
+          ]
+        },
+        {
+          "couplet_number": 2,
+          "urdu_text": "نکلنا خلد سے آدم کا سنتے آئے ہیں لیکن\nبہت بے آبرو ہو کر ترے کوچے سے ہم نکلے",
+          "transliteration": "Nikalna khuld se aadam ka sunte aaye hain lekin\nBohat be-aabroo ho kar tere kooche se hum نکلے",
+          "translation": "We have always heard about Adam's expulsion from Paradise, but\nWith far greater disgrace did I depart from your street.",
+          "explanation": "Ghalib compares his painful expulsion from his beloved's street to the mythological expulsion of Adam from Paradise. He argues that while Adam left Eden with some dignity, his own departure from the beloved's presence was accompanied by public humiliation and loss of self-respect ('be-aabroo').\n\nThe word 'khuld' means eternity or Paradise, symbolizing the perfect state of union. By comparing his beloved's lane ('kooche') to Paradise, Ghalib follows ghazal traditions, but his comparison is double-edged.\n\nHe audaciously claims that his humiliation is greater than Adam's. While Adam was expelled by divine decree for a transgression, the lover is driven out of a mortal street in utter social disgrace, highlighting Ghalib's use of religious imagery to express human pain.",
+          "context": "This couplet displays Ghalib's characteristic audacity, placing the lover's mortal pain in direct comparison (and superior magnitude) with grand religious narratives.\n\nIn classical poetry, comparing oneself to religious figures was highly sensitive, but Ghalib's witty execution made it legendary.",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "خلد",
+              "meaning_urdu": "جنت، بہشت",
+              "meaning_english": "Paradise / Heaven"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "آدم",
+              "meaning_urdu": "حضرت آدم علیہ السلام (پہلے انسان)",
+              "meaning_english": "Adam (the first man)"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "بے آبرو",
+              "meaning_urdu": "ذلیل، بے عزت، رسوا",
+              "meaning_english": "Humiliated / disgraced"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "کوچے",
+              "meaning_urdu": "گلی، محلہ، دربار",
+              "meaning_english": "Street / lane"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "letters": [
+    {
+      "title": "Letter to Har Gopal Taftah: on mangoes and letter writing",
+      "recipient": "Har Gopal Taftah",
+      "date_written": "1858",
+      "urdu_text": "میاں تفتہ! تمہارا خط پہنچا۔ تم نے آموں کی تعریف لکھی اور مجھ سے فرمائش کی کہ کچھ بھیجوں۔ بھلا میاں، میں تو خود آموں کا دیوانہ ہوں۔\n\nمیری تو یہ حالت ہے کہ آم میٹھے ہوں اور بہت سے ہوں۔ لوگ کہتے ہیں کہ آم میں کچھ خوبیاں ہونی چاہئیں، میں کہتا ہوں کہ دو خوبیاں ہونی چاہئیں: ایک تو بہت میٹھے ہوں اور دوسرے بہت سارے ہوں۔\n\nاب خط لکھنے کا ڈھنگ دیکھو۔ لوگ القاب و آداب میں آدھا صفحہ ضائع کر دیتے ہیں اور بات اصل لکھتے ہی نہیں۔ میں نے تو یہ طریقہ اختیار کیا ہے کہ القاب کو چھوڑا اور سیدھی بات شروع کی، گویا ہم اور تم سامنے بیٹھے گفتگو کر رہے ہیں۔",
+      "transliteration": "Mian Taftah! Tumhara khat pahuncha. Tum ne aamon ki taareef likhi aur mujh se farmaish ki ke kuch bhejon. Bhala mian, main to khud aamon ka deewanah hoon.\n\nMeri to yeh haalat hai ke aam meethe hon aur bohat se hon. Log kehte hain ke aam mein kuch khoobiyan honi chahiye, main kehta hoon ke do khoobiyan honi chahiye: ek to bohat meethe hon aur doosre bohat saare hon.\n\nAb khat likhne ka dhang dekho. Log alqaab-o-aadaab mein aadha safha zaya kar dete hain aur baat asal likhte hi nahi. Main ne to yeh tareeqah ikhtiyar kiya hai ke alqaab ko chhoda aur seedhi baat shuru ki, goya hum aur tum saamne baithe guftago kar rahe hain.",
+      "translation": "My dear Taftah! Your letter arrived. You praised mangoes and requested that I send you some. Well, my friend, I myself am absolutely crazy about mangoes!\n\nMy position is simple: mangoes must be sweet, and they must be plentiful. People say there should be various qualities in a mango. I say it needs only two qualities: first, it should be very sweet, and second, there should be a vast number of them!\n\nAlso, observe this style of writing letters. People waste half a page in formal titles and greetings, and never get to the actual point. I have adopted a method where I skip all formal titles and start speaking directly, as if you and I are sitting face to face, having a chat.",
+      "explanation": "This letter highlights Ghalib's two most famous personal characteristics: his legendary love for mangoes and his revolutionary approach to Urdu prose.\n\nHistorically, Urdu letter writing was bogged down by complex, rhythmic Arabic and Persian honorifics. Ghalib shattered this convention by initiating 'muraasla ko mukaalma bana diya' (turning correspondence into a conversation). He wrote exactly how he spoke—with wit, informal words, and direct address.\n\nHis dialogue on mangoes is a classic piece of Urdu humor. It showcases Ghalib's ability to extract joy and playfulness from the simple things in life, despite his severe financial struggles and the turbulent political era he lived through."
+    },
+    {
+      "title": "Letter to Mir Mehdi Majrooh: the ruins of Delhi",
+      "recipient": "Mir Mehdi Majrooh",
+      "date_written": "1859",
+      "urdu_text": "میاں! دلی اب دلی کہاں ہے؟ اب تو یہ ایک چھاؤنی بن گئی ہے۔ نہ وہ قلعہ رہا، نہ وہ شاہجہان آباد، نہ وہ چاندنی چوک۔\n\nانگریزوں نے شہر کو کھنڈر بنا دیا ہے۔ جہاں جاؤ، اداسی برستی ہے۔ میرے اتنے یار مٹ گئے، اتنے دوست جلاوطن ہو گئے کہ اب تنہائی کھائے جاتی ہے۔\n\nکبھی کبھی لگتا ہے کہ میں مردوں کے شہر میں اکیلا زندہ رہ گیا ہوں۔ تم وہاں بیٹھ کر دلی کی خیر پوچھتے ہو، یہاں تو دل جل رہا ہے اور کوئی تسلی دینے والا نہیں رہا۔",
+      "transliteration": "Mian! Dilli ab Dilli kahan hai? Ab to yeh ek chhaoni ban gayi hai. Na woh qila raha, na woh Shahjahanabad, na woh Chandni Chowk.\n\nAngrezon ne shehar ko khandar bana diya hai. Jahan jao, udaasi barasti hai. Mere itne yaar mit gaye, itne dost jalawatan ho gaye ke ab tanhai khaaye jaati hai.\n\nKabhi kabhi lagta hai ke main murdon ke shehar mein akela zinda reh gaya hoon. Tum wahan baith kar Dilli ki khair poochhte ho, yahan to dil jal raha hai aur koi tasalli dene wala nahi raha.",
+      "translation": "My dear friend! Where is Delhi now? It has become nothing but a military garrison. Neither does the Red Fort remain, nor Shahjahanabad, nor Chandni Chowk.\n\nThe British have turned the city into a ruin. Wherever you go, melancholy reigns. So many of my dear companions have been wiped out, and so many friends exiled, that loneliness is now consuming me.\n\nSometimes I feel as if I am the only living soul left in a city of the dead. You sit far away and ask me about the well-being of Delhi—here, my heart is burning, and there is no one left to console me.",
+      "explanation": "This letter is a poignant historical document capturing the tragic aftermath of the 1857 Rebellion (the Mutiny) in Delhi. Following the British capture of Delhi, the city was subjected to massive destruction, looting, and executions. Muslims were temporarily banned from entering, and the cultural landscape was demolished.\n\nGhalib, who stayed in Delhi throughout the rebellion, watched his beloved city collapse. He mourns the loss of places like the Red Fort and Chandni Chowk, which were the epicenters of Mughal culture.\n\nHis prose here is deeply emotional, shifting from his typical humor to absolute grief. The sentence 'Dilli ab Dilli kahan hai' (Delhi is no longer Delhi) became a famous lament in Urdu literature for the end of the Mughal era."
+    },
+    {
+      "title": "Letter to Har Gopal Taftah: on poetry correction",
+      "recipient": "Har Gopal Taftah",
+      "date_written": "1861",
+      "urdu_text": "میاں تفتہ! تمہارے اشعار پہنچے۔ میاں، شعر کہنا تو آسان ہے لیکن اصلاح دینا جوئے شیر لانے کے مترادف ہے۔\n\nتم لکھتے ہو کہ میں جلدی اصلاح کر کے بھیجوں۔ بھائی، بڑھاپے نے عاجز کر دیا ہے، بینائی کمزور ہے اور ہاتھ کانپتے ہیں۔ اوپر سے یہ افلاس کا رونا۔ پنشن بند ہے اور ادھار پر زندگی چل رہی ہے۔\n\nمگر تمہارا کلام دیکھ کر دل خوش ہوتا ہے۔ تمہارے اشعار میں وہ درد اور صفائی ہے جو اب دوسروں میں نظر نہیں آتی۔ میں نے چند جگہوں پر اصلاح کر دی ہے، اسے دیکھ لینا اور یاد رکھنا کہ شعر میں سادگی ہی اس کا حسن ہے۔",
+      "transliteration": "Mian Taftah! Tumhare ashaar pahunche. Mian, sh'er kehna to aasan hai lekin islaah dena jooy-e-sheer laane ke mutaraadif hai.\n\nTum likhte ho ke main jaldi islaah kar ke bhejon. Bhai, budhaape ne aajiz kar diya hai, beenai kamzor hai aur haath kaanpte hain. Oopar se yeh aflaas ka rona. Pension band hai aur udhaar par zindagi chal rahi hai.\n\nMagar tumhara kalaam dekh kar dil khush hota hai. Tumhare ashaar mein woh dard aur safaai hai jo ab doosron mein nazar nahi aati. Main ne chand jagahon par islaah kar di hai, use dekh lena aur yaad rakhna ke sh'er mein saadgi hi us ka husn hai.",
+      "translation": "My dear Taftah! Your verses reached me. My friend, composing poetry is easy, but correcting it is like bringing forth a river of milk (an impossible task).\n\nYou write asking me to correct and return them quickly. Brother, old age has incapacitated me—my eyesight is failing and my hands shake. On top of that, there is this constant lament of poverty. My pension is suspended and life is running entirely on borrowed money.\n\nYet, looking at your poetry makes my heart happy. Your verses contain a pain and clarity that is rarely seen in others these days. I have corrected it in a few places; examine it and always remember that simplicity is the true beauty of a verse.",
+      "explanation": "This letter reveals Ghalib's role as a literary mentor ('Ustad') to younger poets. In classical Urdu culture, a disciple ('Shagird') would send their poetry to an established master for correction ('Islaah'). Ghalib took this duty seriously, mentoring many disciples, especially Har Gopal Taftah, a Hindu poet whom Ghalib loved like a son.\n\nDespite complaining about his physical ailments—failing eyesight, shaking hands—and his severe financial struggles (pension suspension by the British), Ghalib still dedicates his time to literature.\n\nHis advice 'sh'er mein saadgi hi us ka husn hai' (simplicity is the beauty of poetry) is a vital insight into Ghalib's poetic theory, highlighting that the best poetry communicates complex truths in plain language."
+    }
+  ]
+}

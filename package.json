@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3033",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start -p 3033",
+    "lint": "eslint",
+    "seed": "node scripts/seed.js"
   },
   "dependencies": {
+    "@google/genai": "^2.10.0",
+    "@libsql/client": "^0.17.4",
+    "dotenv": "^17.4.2",
     "next": "16.2.9",
+    "nodemailer": "^9.0.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
