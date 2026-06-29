@@ -9,7 +9,7 @@
     "lint": "eslint",
     "seed": "node scripts/seed.js",
     "predeploy": "npm run seed",
-    "deploy": "next build && gh-pages -d out"
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t"
   },
   "dependencies": {
     "@google/genai": "^2.10.0",
