@@ -32,9 +32,12 @@ export default async function LetterDetail({ params }) {
           <span style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--color-gold)" }}>دیوان</span>
           <span style={{ fontSize: "1.1rem", fontWeight: "300", letterSpacing: "0.1em", textTransform: "uppercase" }}>Deewan-e-Ghalib</span>
         </Link>
-        <nav style={{ display: "flex", gap: "16px" }}>
+        <nav style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
           <Link href="/" className="btn-secondary" style={{ textDecoration: "none", fontSize: "0.9rem", padding: "8px 16px" }}>
             Poem of the Day
+          </Link>
+          <Link href="/biography" className="btn-secondary" style={{ textDecoration: "none", fontSize: "0.9rem", padding: "8px 16px" }}>
+            Biography
           </Link>
           <Link href="/letters" className="btn-secondary" style={{ textDecoration: "none", fontSize: "0.9rem", padding: "8px 16px", borderColor: "var(--color-gold)", color: "var(--color-gold)" }}>
             Letters

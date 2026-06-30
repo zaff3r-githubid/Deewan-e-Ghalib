@@ -30,6 +30,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 15px;
+}
+
 html, body {
   background-color: var(--bg-primary);
   color: var(--color-text-primary);
@@ -99,8 +103,8 @@ p {
   font-family: var(--font-urdu);
   direction: rtl;
   text-align: center;
-  font-size: 1.7rem;
-  line-height: 2.6rem;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
   font-weight: normal;
   color: var(--color-text-primary);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
