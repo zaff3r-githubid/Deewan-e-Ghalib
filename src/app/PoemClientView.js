@@ -326,15 +326,24 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
           })}
         </section>
 
-        {/* Newsletter Signup Form Widget (Disabled for static GitHub Pages) */}
+        {/* Newsletter Signup Form Widget (Google Forms) */}
         {!isArchiveView && (
-          <section className="glass-panel" style={{ padding: "40px", marginTop: "60px", textAlign: "center", border: "1px dashed var(--color-gold)" }}>
-            <h2 style={{ fontSize: "1.6rem", color: "var(--color-gold)", marginBottom: "12px" }}>
-              Poem of the Day Newsletter
+          <section className="glass-panel" style={{ padding: "40px", marginTop: "60px", textAlign: "center" }}>
+            <h2 style={{ fontSize: "1.8rem", color: "var(--color-gold)", marginBottom: "12px" }}>
+              A Poem A Day In Your Inbox
             </h2>
-            <p style={{ color: "var(--color-text-secondary)", maxWidth: "500px", margin: "0 auto", fontSize: "0.95rem", lineHeight: "1.5" }}>
-              This is a static preview of the Deewan-e-Ghalib web application hosted on GitHub Pages. To receive the daily email newsletter, you can deploy this app to Vercel with a database backend (like Turso) using the included source code.
+            <p style={{ color: "var(--color-text-secondary)", maxWidth: "500px", margin: "0 auto 28px auto", fontSize: "0.95rem", lineHeight: "1.6" }}>
+              Join other lovers of classical literature. Sign up using our Google Form to receive a beautifully annotated ghazal couplet breakdown in your inbox every single morning.
             </p>
+            <a 
+              href="YOUR_GOOGLE_FORM_URL_HERE" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn-primary"
+              style={{ textDecoration: "none", display: "inline-block" }}
+            >
+              📩 Subscribe via Google Forms
+            </a>
           </section>
         )}
 
