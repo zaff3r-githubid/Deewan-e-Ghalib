@@ -66,7 +66,7 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
           {words.map((wordStr, wordIdx) => {
             // Clean word from basic punctuation to match dictionary keys
             const cleanWord = wordStr.replace(/[؟،۔!]/g, "").trim();
-            
+
             // Find if this word matches any word in our vocabulary array
             const matchedWord = couplet.words?.find((w) => {
               const cleanDictWord = w.word_urdu.replace(/[؟،۔!]/g, "").trim();
@@ -103,7 +103,7 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
 
   return (
     <div style={{ maxWidth: "800px", width: "100%", margin: "0 auto", padding: "40px 20px 80px 20px" }}>
-      
+
       {/* Navigation Header */}
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "60px", paddingBottom: "20px", borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
         <Link href="/" style={{ textDecoration: "none", color: "var(--color-text-primary)", display: "flex", alignItems: "center", gap: "8px" }}>
@@ -125,7 +125,7 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
 
       {/* Main Content Area */}
       <main className="fade-in">
-        
+
         {/* Poem Header Card */}
         <div className="glass-panel" style={{ padding: "40px", textAlign: "center", marginBottom: "40px" }}>
           <span style={{ fontSize: "0.85rem", fontWeight: "600", color: "var(--color-emerald)", letterSpacing: "0.15em", textTransform: "uppercase" }}>
@@ -151,7 +151,7 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
 
             return (
               <div key={couplet.id} className="glass-panel" style={{ padding: "40px" }}>
-                
+
                 {/* Couplet Header */}
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "24px" }}>
                   <span style={{ fontSize: "0.8rem", color: "var(--color-gold)", fontWeight: "600", textTransform: "uppercase", letterSpacing: "0.1em" }}>
@@ -183,7 +183,7 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
                   <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", marginBottom: "12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                     <span>💡 Hover or tap dashed Urdu words for translations:</span>
                     {activeWord && (
-                      <button 
+                      <button
                         onClick={() => setActiveWords(prev => ({ ...prev, [coupletIdx]: null }))}
                         style={{ background: "none", border: "none", color: "var(--color-gold)", cursor: "pointer", fontSize: "0.85rem" }}
                       >
@@ -191,12 +191,12 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
                       </button>
                     )}
                   </div>
-                  
+
                   {/* Dynamic Vocabulary Card */}
-                  <div style={{ 
-                    background: "rgba(255,255,255,0.02)", 
-                    border: "1px solid rgba(212,175,55,0.1)", 
-                    borderRadius: "8px", 
+                  <div style={{
+                    background: "rgba(255,255,255,0.02)",
+                    border: "1px solid rgba(212,175,55,0.1)",
+                    borderRadius: "8px",
                     padding: "16px",
                     minHeight: "72px",
                     display: "flex",
@@ -258,7 +258,7 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
 
                 {/* Explanations Accordion */}
                 <div style={{ display: "flex", flexDirection: "column", gap: "12px", borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "20px" }}>
-                  
+
                   {/* Commentary Accordion */}
                   <div style={{ border: "1px solid rgba(255,255,255,0.05)", borderRadius: "8px", overflow: "hidden" }}>
                     <button
@@ -335,10 +335,10 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
             <p style={{ color: "var(--color-text-secondary)", maxWidth: "500px", margin: "0 auto 28px auto", fontSize: "0.95rem", lineHeight: "1.6" }}>
               Join other lovers of classical literature. Sign up using our Google Form to receive a beautifully annotated ghazal couplet breakdown in your inbox every single morning.
             </p>
-            <a 
-              href="YOUR_GOOGLE_FORM_URL_HERE" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://forms.gle/bdd6Xr2SPgmUsoC57"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
               style={{ textDecoration: "none", display: "inline-block" }}
             >
