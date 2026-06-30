@@ -36,6 +36,7 @@ async function initSchema() {
       title TEXT NOT NULL,
       urdu_title TEXT,
       poet TEXT DEFAULT 'Mirza Ghalib',
+      language TEXT DEFAULT 'urdu',
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
@@ -48,8 +49,11 @@ async function initSchema() {
       urdu_text TEXT NOT NULL,
       transliteration TEXT NOT NULL,
       translation TEXT NOT NULL,
+      urdu_translation TEXT,
       explanation TEXT NOT NULL,
+      explanation_urdu TEXT,
       context TEXT NOT NULL,
+      context_urdu TEXT,
       FOREIGN KEY(ghazal_id) REFERENCES ghazals(id) ON DELETE CASCADE
     );
   `);
@@ -105,8 +109,8 @@ async function insertGhazal(ghazalData) {
   }
 
   const result = await db.execute({
-    sql: "INSERT INTO ghazals (title, urdu_title, poet) VALUES (?, ?, ?)",
-    args: [ghazalData.title, ghazalData.urdu_title || null, ghazalData.poet || "Mirza Ghalib"],
+    sql: "INSERT INTO ghazals (title, urdu_title, poet, language) VALUES (?, ?, ?, ?)",
+    args: [ghazalData.title, ghazalData.urdu_title || null, ghazalData.poet || "Mirza Ghalib", ghazalData.language || "urdu"],
   });
   
   const ghazalId = Number(result.lastInsertRowid);
@@ -115,8 +119,8 @@ async function insertGhazal(ghazalData) {
   for (const couplet of ghazalData.couplets) {
     const coupletResult = await db.execute({
       sql: `
-        INSERT INTO couplets (ghazal_id, couplet_number, urdu_text, transliteration, translation, explanation, context)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO couplets (ghazal_id, couplet_number, urdu_text, transliteration, translation, urdu_translation, explanation, explanation_urdu, context, context_urdu)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
       `,
       args: [
         ghazalId,
@@ -124,8 +128,11 @@ async function insertGhazal(ghazalData) {
         couplet.urdu_text,
         couplet.transliteration,
         couplet.translation,
+        couplet.urdu_translation || null,
         couplet.explanation,
+        couplet.explanation_urdu || null,
         couplet.context,
+        couplet.context_urdu || null,
       ],
     });
 

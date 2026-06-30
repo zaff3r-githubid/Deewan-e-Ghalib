@@ -38,6 +38,7 @@ export async function initDb() {
       title TEXT NOT NULL,
       urdu_title TEXT,
       poet TEXT DEFAULT 'Mirza Ghalib',
+      language TEXT DEFAULT 'urdu',
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
@@ -50,8 +51,11 @@ export async function initDb() {
       urdu_text TEXT NOT NULL,
       transliteration TEXT NOT NULL,
       translation TEXT NOT NULL,
+      urdu_translation TEXT,
       explanation TEXT NOT NULL,
+      explanation_urdu TEXT,
       context TEXT NOT NULL,
+      context_urdu TEXT,
       FOREIGN KEY(ghazal_id) REFERENCES ghazals(id) ON DELETE CASCADE
     );
   `);
