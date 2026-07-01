@@ -97,6 +97,260 @@
               "meaning_english": "Affair / happening / phenomenon"
             }
           ]
+        },
+        {
+          "couplet_number": 3,
+          "urdu_text": "میں بھی منہ میں زبان رکھتا ہوں\nکاش پوچھو کہ مدعا کیا ہے",
+          "transliteration": "Main bhi munh mein zabaan rakhta hoon\nKaash poochho ke mudda'a kya hai",
+          "translation": "I, too, possess a tongue in my mouth;\nIf only you would ask what my desire is!",
+          "urdu_translation": "میں بھی اپنے منہ میں زبان رکھتا ہوں (بول سکتا ہوں)؛ کاش تم کبھی مجھ سے پوچھو کہ میرا مقصد اور تمنا کیا ہے۔",
+          "explanation": "The poet asserts his ability to speak and express his thoughts, complaining about being ignored or silenced by the beloved. He wishes that the beloved would show enough care to ask what he truly wants ('mudda'a').\n\n'Munh mein zabaan rakhna' is a common Urdu idiom meaning to have the capacity to defend oneself or speak out. Ghalib plays on both the literal organ of speech and the metaphorical right of the lover to express his desires.",
+          "explanation_urdu": "غالب شکوہ کرتے ہیں کہ انہیں بولنے کی اجازت نہیں دی جاتی یا ان کی بات سنی نہیں جاتی۔ وہ کہتے ہیں کہ میں بھی اپنے حق میں بولنے کی صلاحیت رکھتا ہوں، کاش محبوب مجھ سے میرے دل کی بات پوچھتا۔ یہ شعر محبوب کی بے رخی اور عاشق کی خاموش تڑپ کو ظاہر کرتا ہے۔",
+          "context": "Ghalib frequently wrote about the pain of being misunderstood or silenced. This couplet reflects his pride; he will not beg for attention, but he is fully ready to declare his love if asked respectfully.",
+          "context_urdu": "یہ شعر غالب کی خودداری اور محبوب کے رویے کے درمیان کشمکش کو دکھاتا ہے۔ وہ اپنی بات زبردستی مسلط نہیں کرنا چاہتے، بلکہ محبوب کی طرف سے توجہ کے طالب ہیں۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "میں بھی",
+              "meaning_urdu": "میں بھی (عاشق)",
+              "meaning_english": "I too"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "زبان",
+              "meaning_urdu": "بولنے کی طاقت، عضوِ تکلم",
+              "meaning_english": "Tongue / power of speech"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "کاش",
+              "meaning_urdu": "تمنا ہے کہ ایسا ہوتا",
+              "meaning_english": "If only / I wish"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "مدعا",
+              "meaning_urdu": "مقصد، خواہش، مطلب",
+              "meaning_english": "Desire / intent / purpose"
+            }
+          ]
+        },
+        {
+          "couplet_number": 4,
+          "urdu_text": "جب کہ تجھ بن نہیں کوئی موجود\nپھر یہ ہنگامہ اے خدا کیا ہے",
+          "transliteration": "Jab ki tujh bin nahin kooi maujood\nPhir yeh hangama ai khuda kya hai",
+          "translation": "When there is no one present in the universe but You;\nThen what is this uproar (of creation), O God?",
+          "urdu_translation": "جب تیرے سوا دنیا میں کوئی دوسرا موجود ہی نہیں ہے، تو پھر یہ دنیا کا ہنگامہ اور شور و غوغا کس لئے ہے، اے خدا؟",
+          "explanation": "This is a philosophical inquiry into Sufi Monism (Wahdat-al-Wujud). The poet asks: if God is the only true reality and nothing exists besides Him, why is the world filled with so much noise, creation, and conflict? Ghalib challenges the Divine to explain the necessity of worldly illusion if absolute unity is the ultimate truth.",
+          "explanation_urdu": "یہ شعر صوفیانہ عقیدہ 'وحدت الوجود' کی تشریح کرتا ہے۔ غالب سوال کرتے ہیں کہ اگر ہر چیز میں خدا ہی کا جلوہ ہے اور تیرے سوا کوئی حقیقی وجود نہیں ہے، تو پھر یہ دنیاوی رونقیں، فتنے اور فسادات کس لئے ہیں؟ یہ انسانی عقل کا خدا کے سامنے ایک جرات مندانہ سوال ہے۔",
+          "context": "Ghalib was deeply influenced by Sufi philosophy but approached it with intellectual skepticism. This couplet showcases his style of questioning religious assumptions rather than blindly accepting them.",
+          "context_urdu": "غالب تصوف کے مسائل کو عقلی اور تنقیدی زاویے سے دیکھتے تھے۔ ان کے ہاں تصوف محض عقیدت نہیں بلکہ غور و فکر کا ایک میدان تھا۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "تجھ بن",
+              "meaning_urdu": "تیرے بغیر، تیرے سوا",
+              "meaning_english": "Without/besides You"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "موجود",
+              "meaning_urdu": "حاضر، ہستی رکھنے والا",
+              "meaning_english": "Present / existing"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "ہنگامہ",
+              "meaning_urdu": "شور و غوغا، خلل، شورش",
+              "meaning_english": "Uproar / tumult / commotion"
+            }
+          ]
+        },
+        {
+          "couplet_number": 5,
+          "urdu_text": "یہ پری چہرہ لوگ کیسے ہیں\nغمزہ و عشوہ و ادا کیا ہے",
+          "transliteration": "Yeh pari-chehra log kaise hain\nGhamza o ishva o adaa kya hai",
+          "translation": "Who are these fairy-faced beauties?\nWhat are these amorous glances, coquetry, and enticing styles?",
+          "urdu_translation": "یہ پریوں جیسے چہروں والے حسین لوگ کون ہیں؟ اور ان کے غمزے، نخرے، اشارے اور ادائیں کیا چیز ہیں؟",
+          "explanation": "Continuing the philosophical questioning of the previous verse, Ghalib asks: if only God exists, then what are these beautiful human beings ('pari-chehra')? Why are they blessed with seductive glances ('ghamza'), coquetry ('ishva'), and charming gestures ('ada')? Ghalib explores the tension between Divine unity and the overwhelming pull of human beauty.",
+          "explanation_urdu": "پچھلے شعر کے تسلسل میں غالب پوچھتے ہیں کہ اگر کائنات میں صرف خدا ہے، تو پھر یہ حسین چہرے کہاں سے آئے؟ اور ان کے ناز و انداز، نخرے اور ادائیں کیا معنی رکھتے ہیں؟ یہ دنیا کی ظاہری خوبصورتی اور اس کے باطنی سچ کے درمیان پائے جانے والے تضاد پر گہرا غور ہے۔",
+          "context": "Classical Persian and Urdu poetry frequently links the beauty of the beloved to the beauty of the Creator. Ghalib turns this theological link into an active poetic question.",
+          "context_urdu": "حسنِ مجازی کو حسنِ حقیقی کا آئینہ دار مانا گیا ہے۔ غالب یہاں اسی فلسفے کو ایک خوبصورت اور دلکش شعری لباس پہناتے ہیں۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "پری چہرہ",
+              "meaning_urdu": "پری جیسے چہرے والے، انتہائی خوبصورت",
+              "meaning_english": "Fairy-faced beauties"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "غمزہ",
+              "meaning_urdu": "آنکھ کا اشارہ، ناز بھرا اشارہ",
+              "meaning_english": "Amorous glance / wink"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "عشوہ",
+              "meaning_urdu": "نخرہ، ناز و انداز",
+              "meaning_english": "Coquetry / playfulness"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "ادا",
+              "meaning_urdu": "چال ڈھال، دلکش انداز",
+              "meaning_english": "Enticing style / grace"
+            }
+          ]
+        },
+        {
+          "couplet_number": 6,
+          "urdu_text": "شکنِ زلفِ عنبریں کیوں ہے\nنگہِ چشمِ سرمہ سا کیا ہے",
+          "transliteration": "Shikan-e-zulf-e-ambareen kyun hai\nNigah-e-chashm-e-surma saa kya hai",
+          "translation": "Why are there curls in these fragrant tresses?\nWhat is this gaze from these kohl-lined eyes?",
+          "urdu_translation": "ان خوشبودار بالوں میں یہ خم (شکن) کیوں ہے؟ اور سرمہ لگی ہوئی آنکھوں کے اس اشارے اور نظر کا کیا مطلب ہے؟",
+          "explanation": "Ghalib continues to dissect the details of physical beauty. He asks why the beloved's hair is curled and fragrant ('zulf-e-ambareen') and what the significance is of a gaze ('nigah') from eyes decorated with kohl ('surma'). These details are presented as existential questions, treating the beloved's physical charms as mysteries that challenge the mind.",
+          "explanation_urdu": "غالب محبوب کے سراپے کی تعریف کرتے ہوئے پوچھتے ہیں کہ ان زلفوں کی خوشبو اور پیچ و خم کا مقصد کیا ہے؟ اور سرمئی آنکھوں کے اشاروں کا کیا مطلب ہے؟ وہ محبوب کے حسن کو محض مادی شے نہیں بلکہ ایک راز کی طرح پیش کرتے ہیں۔",
+          "context": "Curls in hair and kohl-lined eyes are standard metaphors for entrapment and injury in love. Ghalib utilizes them here to emphasize how details of human beauty create a complex web of attraction.",
+          "context_urdu": "زلفوں کے پیچ و خم اور سرمئی آنکھیں روایتی شاعری کے اہم موضوعات ہیں۔ غالب نے انہیں اپنے خاص فلسفیانہ اور سوالیہ انداز میں ڈھالا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "شکن",
+              "meaning_urdu": "بل، خم، سلوٹ",
+              "meaning_english": "Curl / fold / wrinkle"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "عنبریں",
+              "meaning_urdu": "خوشبودار، عنبر جیسی مہک والا",
+              "meaning_english": "Amber-scented / fragrant"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "سرمہ سا",
+              "meaning_urdu": "سرمہ لگی ہوئی، سرمئی",
+              "meaning_english": "Kohl-lined / kohl-decorated"
+            }
+          ]
+        },
+        {
+          "couplet_number": 7,
+          "urdu_text": "سبزہ و گل کہاں سے آئے ہیں\nابر کیا چیز ہے ہوا کیا ہے",
+          "transliteration": "Sabza o gul kahaan se aaye hain\nAbr kya cheez hai havā kya hai",
+          "translation": "Where have this greenery and these flowers come from?\nWhat is a cloud, what is the wind?",
+          "urdu_translation": "یہ ہریالی اور پھول کہاں سے ابھرے ہیں؟ یہ بادل کیا چیز ہے اور یہ ہوا کیا ہے؟",
+          "explanation": "Expanding his inquiry from human beauty to the natural world, Ghalib questions the origins of greenery ('sabza'), flowers ('gul'), clouds ('abr'), and wind ('hava'). The couplet captures a sense of childlike wonder combined with deep philosophical curiosity, challenging the viewer to look beyond the ordinary and ask 'why' nature is the way it is.",
+          "explanation_urdu": "انسانی حسن سے ہٹ کر اب غالب فطرت کی طرف متوجہ ہوتے ہیں۔ وہ پوچھتے ہیں کہ یہ سبزہ، پھول، بادل اور ہوا کہاں سے آئے اور ان کا وجود کیا ہے؟ یہ شعر کائنات کے مظاہر پر حیرت اور تجسس کا بہترین اظہار ہے۔",
+          "context": "This couplet is highly regarded for its simplicity. Ghalib uses very basic vocabulary to ask foundational questions about the universe, reflecting his belief that the familiar world is filled with unseen mysteries.",
+          "context_urdu": "سادہ الفاظ میں کائناتی سچائیوں پر غور کرنا غالب کا کمال ہے۔ یہ شعر انسان کو اپنے اردگرد کی خوبصورتی پر غور کرنے کی دعوت دیتا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "سبزہ",
+              "meaning_urdu": "ہریالی، گھاس",
+              "meaning_english": "Greenery / grass"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "گل",
+              "meaning_urdu": "پھول",
+              "meaning_english": "Flower / rose"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "ابر",
+              "meaning_urdu": "بادل",
+              "meaning_english": "Cloud"
+            }
+          ]
+        },
+        {
+          "couplet_number": 8,
+          "urdu_text": "ہم کو ان سے وفا کی ہے امید\nجو نہیں جانتے وفا کیا ہے",
+          "transliteration": "Hum ko un se vafā ki hai ummeed\nJo nahin jaante vafā kya hai",
+          "translation": "I expect faithfulness from someone\nWho does not even know what faithfulness is.",
+          "urdu_translation": "ہمیں ان سے وفاداری اور محبت کی امید ہے جو سرے سے جانتے ہی نہیں کہ وفا کس چڑیا کا نام ہے۔",
+          "explanation": "This couplet highlights the tragic irony of human love. The poet admits that he expects loyalty and love ('vafa') from a beloved who is completely ignorant of the concept. It describes the stubbornness of human desire: we continue to seek warmth from the cold and expect commitment from the uncommitted.",
+          "explanation_urdu": "یہ شعر انسانی نفسیات اور محبت کے تضاد کو بیان کرتا ہے۔ غالب تسلیم کرتے ہیں کہ ان کی امیدیں ایسے شخص سے وابستہ ہیں جو وفا کی تعریف سے بھی ناواقف ہے۔ یہ عاشق کی بے بسی اور محبت کی ضد کو خوبصورتی سے پیش کرتا ہے۔",
+          "context": "Expectations in love often lead to disappointment. Ghalib captures this tragic human error with a touch of irony rather than despair, suggesting that the drive to love is stronger than the intellect.",
+          "context_urdu": "محبت کی ناکامی اور لاحاصل تمناؤں پر غالب کا یہ تبصرہ ان کے کلام کے سب سے زیادہ دہرائے جانے والے حصوں میں سے ایک ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "وفا",
+              "meaning_urdu": "عہد نبھانا، سچی محبت، وفاداری",
+              "meaning_english": "Faithfulness / loyalty / love"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "امید",
+              "meaning_urdu": "آس، توقع",
+              "meaning_english": "Hope / expectation"
+            }
+          ]
+        },
+        {
+          "couplet_number": 9,
+          "urdu_text": "جان تم پر نثار کرتا ہوں\nمیں نہیں جانتا دعا کیا ہے",
+          "transliteration": "Jaan tum par nisār karta hoon\nMain nahin jaanta duā kya hai",
+          "translation": "I sacrifice my life for you;\nI do not know how to pray (or what prayer is).",
+          "urdu_translation": "میں اپنی جان تم پر قربان کرنے کو تیار ہوں، میں نہیں جانتا کہ دعاؤں کے طویل چکر کیا ہوتے ہیں۔",
+          "explanation": "The poet declares the ultimate devotion: instead of offering words of prayer ('dua'), he offers his physical life ('jaan') as a sacrifice. He asserts that active, self-sacrificing love is superior to passive, spoken prayers, replacing formal religious rituals with absolute dedication to the beloved.",
+          "explanation_urdu": "غالب محبت کی انتہا بیان کرتے ہوئے کہتے ہیں کہ میں تمہارے لئے لمبی لمبی دعائیں مانگنا نہیں جانتا، میں تو بس اپنی جان تم پر قربان کرنا جانتا ہوں۔ یہ زبانی جمع خرچ کے بجائے عملی محبت کا ثبوت ہے۔",
+          "context": "In classical Urdu ghazals, sacrificing one's life is the ultimate proof of love. Ghalib positions his simple action above religious or formal supplication.",
+          "context_urdu": "ریاکاری اور زبانی دعووں کے مقابلے میں جان کی قربانی کو غالب نے سچی محبت کا معیار ٹھہرایا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "جان",
+              "meaning_urdu": "زندگی، روح",
+              "meaning_english": "Life / soul"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "نثار",
+              "meaning_urdu": "قربان کرنا، نچھاور کرنا",
+              "meaning_english": "Sacrificing / offering"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "دعا",
+              "meaning_urdu": "التجا، مناجات",
+              "meaning_english": "Prayer / supplication"
+            }
+          ]
+        },
+        {
+          "couplet_number": 10,
+          "urdu_text": "میں نے مانا کہ کچھ نہیں غالب\nمفت ہاتھ آئے تو برا کیا ہے",
+          "transliteration": "Main ne maana ki kuchh nahin Ghalib\nMuft haath aaye to bura kya hai",
+          "translation": "I admit that 'Ghalib' is worth nothing;\nBut if he is available for free, what is the harm?",
+          "urdu_translation": "میں تسلیم کرتا ہوں کہ غالب کی کوئی قیمت اور حیثیت نہیں ہے، لیکن اگر وہ بغیر کسی قیمت کے مل جائے تو اسے رکھنے میں کیا حرج ہے؟",
+          "explanation": "This is the signature closing couplet (Maqta). Ghalib uses his pen name to poke fun at himself. He tells the beloved: yes, I admit Ghalib is a worthless, poor man. But since you don't have to pay anything to keep him around as a lover, why not accept him? It blends humor, self-deprecation, and ultimate charm.",
+          "explanation_urdu": "شعر کے آخری حصے (مقطع) میں غالب نے اپنی ذات پر طنز کیا ہے۔ وہ محبوب سے کہتے ہیں کہ میں مانتا ہوں کہ غالب کی کوئی اوقات نہیں ہے، لیکن اگر وہ مفت میں مل رہا ہے تو اسے قبول کرنے میں کیا نقصان ہے؟ یہ غالب کی شگفتگی اور خود اعتمادی کی عکاسی کرتا ہے۔",
+          "context": "Ghalib was famous for his absolute lack of arrogance in his Urdu poetry, frequently making himself the target of his own wit, which makes the closing lines of his ghazals extremely memorable.",
+          "context_urdu": "غالب نے اپنے مقطعوں میں اکثر اپنی ذات پر طنز کیا ہے، جو ان کے کلام کو روایتی درباری شاعروں سے ممتاز بناتا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "کچھ نہیں",
+              "meaning_urdu": "بے قیمت، معمولی، ادنیٰ",
+              "meaning_english": "Worthless / nothing"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "مفت",
+              "meaning_urdu": "بغیر کسی قیمت کے، مفت میں",
+              "meaning_english": "Free of cost / gratis"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "برا کیا ہے",
+              "meaning_urdu": "کیا برائی ہے، کیا نقصان ہے",
+              "meaning_english": "What is the harm / what is bad"
+            }
+          ]
         }
       ]
     },
@@ -112,7 +366,7 @@
           "transliteration": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle\nBohat nikle mere armaan lekin phir bhi kam nikle",
           "translation": "Thousands of desires, each so intense that it takes my breath away;\nMany of my yearnings were fulfilled, yet they feel all too few.",
           "urdu_translation": "میری ہزاروں خواہشیں ایسی ہیں کہ ہر خواہش پر جان نکلے۔ میرے بہت سے ارمان پورے ہوئے لیکن پھر بھی وہ بہت کم لگتے ہیں۔",
-          "explanation": "This is perhaps Ghalib's most celebrated verse. It defines the insatiable nature of human desire. The poet notes that he has thousands of desires, each so intense that it is worth dying for ('dam nikle'). Even though countless desires of his were fulfilled, they still feel like a drop in the ocean compared to what remains unfulfilled.\n\nGhalib outlines a core existential truth: desire is infinite, whereas human life and satisfaction are finite. No matter how many dreams are realized, the human spirit continues to yearn for more, leaving one perpetually unfulfilled.",
+          "explanation": "This is Ghalib's most celebrated verse. It defines the insatiable nature of human desire. The poet notes that he has thousands of desires, each so intense that it is worth dying for ('dam nikle'). Even though countless desires of his were fulfilled, they still feel like a drop in the ocean compared to what remains unfulfilled.\n\nGhalib outlines a core existential truth: desire is infinite, whereas human life and satisfaction are finite. No matter how many dreams are realized, the human spirit continues to yearn for more, leaving one perpetually unfulfilled.",
           "explanation_urdu": "یہ شعر انسانی خواہشات کی لا متناہی حدوں کی عکاسی کرتا ہے۔ غالب فرماتے ہیں کہ ہر خواہش اتنی دلکش ہے کہ اس پر جان قربان کی جا سکتی ہے۔ انسان کی یہ نفسیات ہے کہ کتنی ہی خواہشات پوری ہو جائیں، وہ ہمیشہ نا کافی محسوس ہوتی ہیں۔ یہ انسانی لالچ اور لامتناہی تمناؤں پر ایک گہرا فلسفیانہ تبصرہ ہے۔",
           "context": "Ghalib reflects on the human condition and the endless cycle of wants. It reflects his own biography, marked by great ambitions and financial hardships.\n\nThe verse highlights the transition in Urdu poetry from describing romantic longing to exploring universal human psychology.",
           "context_urdu": "غالب کی اپنی زندگی مالی تنگیوں اور ادھورے خوابوں سے بھری ہوئی تھی، اس لئے ان کے کلام میں خواہشات کا یہ نوحہ نہایت ذاتی محسوس ہوتا ہے، مگر یہ کائناتی سچائی کا درجہ رکھتا ہے۔",
@@ -182,6 +436,68 @@
         },
         {
           "couplet_number": 3,
+          "urdu_text": "محبت میں نہیں ہے فرق جینے اور مرنے کا\nاسی کو دیکھ کر جیتے ہیں جس کافر پہ دم نکلے",
+          "transliteration": "Mohabbat mein nahin hai farq jeenay aur marnay ka\nUsi ko dekh kar jeetay hain, jis kaafir pe dam nikle",
+          "translation": "In love, there is no difference between living and dying;\nI live only by gazing upon the very beloved for whom I am ready to die.",
+          "urdu_translation": "محبت میں جینے اور مرنے کا کوئی فرق نہیں رہتا، ہم تو اسی محبوب کو دیکھ کر جیتے ہیں جس سنگدل (کافر) پر ہماری جان نکلتی ہے۔",
+          "explanation": "This couplet explores the absolute nature of romantic devotion. In the state of love, the conventional distinction between life ('jeena') and death ('marna') is dissolved. The lover draws his life force solely from looking at the beloved, even though the beloved is the very source of the pain that kills him. The word 'kaafir' is a classical trope representing the beloved's cruelty or religious indifference.",
+          "explanation_urdu": "محبت میں زندگی اور موت کی سرحدیں مٹ جاتی ہیں۔ غالب کہتے ہیں کہ جس سنگدل محبوب پر ہماری جان نکلتی ہے، اسے دیکھنا ہی ہماری زندگی کا واحد سہارا ہے۔ یہ محبت کا وہ مقام ہے جہاں درد ہی دوا بن جاتا ہے اور موت ہی زندگی کا دوسرا نام بن جاتی ہے۔",
+          "context": "This couplet is an excellent representation of Ghalib's ability to capture emotional paradoxes. It highlights that the lover's survival is tied to the very entity that causes their destruction.",
+          "context_urdu": "عاشق کا محبوب کے ستم کو زندگی کی علامت سمجھنا اردو غزل کا ایک روایتی مگر اہم موضوع ہے جسے غالب نے سادگی اور اثر انگیزی کے ساتھ پیش کیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "فرق",
+              "meaning_urdu": "تضاد، اختلاف",
+              "meaning_english": "Difference / distinction"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "کافر",
+              "meaning_urdu": "محبوب (سنگدل، بے رحم)",
+              "meaning_english": "Faithless beloved / infidel"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "جیتے ہیں",
+              "meaning_urdu": "زندہ رہتے ہیں",
+              "meaning_english": "We live"
+            }
+          ]
+        },
+        {
+          "couplet_number": 4,
+          "urdu_text": "خدا کے واسطے پردہ نہ کعبے سے اٹھا ظالم\nکہیں ایسا نہ ہو یاں بھی وہی کافر صنم نکلے",
+          "transliteration": "Khuda ke vaaste parda na kaabe se uthaa zaalim\nKaheen aisa na ho yaan bhi wahi kaafir sanam nikle",
+          "translation": "For God's sake, do not lift the veil from the Kaaba, O tyrant;\nLest it happens that the same faithless beloved emerges there too.",
+          "urdu_translation": "خدا کے لئے کعبے کا پردہ مت اٹھاؤ، اے ظالم! کہیں ایسا نہ ہو کہ وہاں بھی وہی بے رحم محبوب (بت) نکل آئے۔",
+          "explanation": "This is a daring and witty blend of religious devotion and earthly romance. Ghalib begs not to lift the veil of the Kaaba (the holiest site in Islam). He warns that if the divine mystery is unveiled, he might discover that the object of worship is none other than his cruel, beautiful beloved. It suggests that for the true lover, the beloved is the only deity, and all worship leads back to them.",
+          "explanation_urdu": "یہ غالب کا ایک نہایت مشہور اور شوخ شعر ہے۔ وہ کنایہ کرتے ہیں کہ اگر کعبے کی حقیقت سے پردہ اٹھایا جائے تو وہاں بھی وہی محبوب نکلے گا جس کی عبادت کی جا رہی ہے۔ یہ مجاز اور حقیقت، اور عشقِ مجازی اور عشقِ حقیقی کے ادغام کی ایک لاجواب مثال ہے۔",
+          "context": "Ghalib frequently challenged religious conventions with humorous exaggeration. This couplet positions human love as a force equal to, or identical with, divine worship.",
+          "context_urdu": "مذہبی علامات کو حسن اور عشق کے موضوعات کے ساتھ جوڑنا غالب کی شاعری کا ایک بڑا حسن ہے جو قاری کو حیرت میں ڈال دیتا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "پردہ",
+              "meaning_urdu": "حجاب، غلافِ کعبہ",
+              "meaning_english": "Veil / curtain"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "صنم",
+              "meaning_urdu": "بت، پیارا، محبوب",
+              "meaning_english": "Idol / beloved"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "ظالم",
+              "meaning_urdu": "بے رحم، زیادتی کرنے والا",
+              "meaning_english": "Tyrant / oppressor"
+            }
+          ]
+        },
+        {
+          "couplet_number": 5,
           "urdu_text": "کہاں مے خانہ کا دروازہ غالب اور کہاں واعظ\nپر اتنا جانتے ہیں کل وہ جاتا تھا کہ ہم نکلے",
           "transliteration": "Kahaan maikhane ka darwaaza Ghalib aur kahaan vaaiz\nPar itna jaante hain kal wo jaata tha ki hum nikle",
           "translation": "How distant is the tavern door, O Ghalib, from the preacher; but all I know is, yesterday he was sneaking in just as I was coming out!",
@@ -307,7 +623,7 @@
       "title": "Letter to Har Gopal Taftah: on mangoes and letter writing",
       "recipient": "Har Gopal Taftah",
       "date_written": "1858",
-      "urdu_text": "میاں تفتہ! تمہارا خط پہنچا۔ تم نے آموں کی تعریف لکھی اور مجھ سے فرمائش کی کہ کچھ بھیجوں۔ بھلا میاں، میں تو خود آموں کا دیوانہ ہوں۔\n\nمیری تو یہ حالت ہے کہ آم میٹھے ہوں اور بہت سے ہوں۔ لوگ کہتے ہیں کہ آم میں کچھ خوبیاں ہونی چاہئیں، میں کہتا ہوں کہ دو خوبیاں ہونی چاہئیں: ایک تو بہت میٹھے ہوں اور دوسرے بہت سارے ہوں۔\n\nاب خط لکھنے کا ڈھنگ دیکھو۔ لوگ القاب و آداب میں آدھا صفحہ ضائع کر دیتے ہیں اور بات اصل لکھتے ہی نہیں۔ میں نے تو یہ طریقہ اختیار کیا ہے کہ القاب کو چھوڑا اور سیدھی بات شروع کی، گویا ہم اور تم سامنے بیٹھے گفتگو کر رہے ہیں۔",
+      "urdu_text": "میاں تفتہ! تمہارا خط پہنچا۔ تم نے آموں کی تعریف لکھی اور مجھ سے فرمائش کی کہ کچھ بھیجوں۔ بھلا میاں، میں تو خود آموں کا دیوانہ ہوں۔\n\nمیری تو یہ حالت ہے کہ آم میٹھے ہوں اور بہت سے ہوں. لوگ کہتے ہیں کہ آم میں کچھ خوبیاں ہونی چاہئیں، میں کہتا ہوں کہ دو خوبیاں ہونی چاہئیں: ایک تو بہت میٹھے ہوں اور دوسرے بہت سارے ہوں۔\n\nاب خط لکھنے کا ڈھنگ دیکھو۔ لوگ القاب و آداب میں آدھا صفحہ ضائع کر دیتے ہیں اور بات اصل لکھتے ہی نہیں۔ میں نے تو یہ طریقہ اختیار کیا ہے کہ القاب کو چھوڑا اور سیدھی بات شروع کی، گویا ہم اور تم سامنے بیٹھے گفتگو کر رہے ہیں۔",
       "transliteration": "Mian Taftah! Tumhara khat pahuncha. Tum ne aamon ki taareef likhi aur mujh se farmaish ki ke kuch bhejon. Bhala mian, main to khud aamon ka deewanah hoon.\n\nMeri to yeh haalat hai ke aam meethe hon aur bohat se hon. Log kehte hain ke aam mein kuch khoobiyan honi chahiye, main kehta hoon ke do khoobiyan honi chahiye: ek to bohat meethe hon aur doosre bohat saare hon.\n\nAb khat likhne ka dhang dekho. Log alqaab-o-aadaab mein aadha safha zaya kar dete hain aur baat asal likhte hi nahi. Main ne to yeh tareeqah ikhtiyar kiya hai ke alqaab ko chhoda aur seedhi baat shuru ki, goya hum aur tum saamne baithe guftago kar rahe hain.",
       "translation": "My dear Taftah! Your letter arrived. You praised mangoes and requested that I send you some. Well, my friend, I myself am absolutely crazy about mangoes!\n\nMy position is simple: mangoes must be sweet, and they must be plentiful. People say there should be various qualities in a mango. I say it needs only two qualities: first, it should be very sweet, and second, there should be a vast number of them!\n\nAlso, observe this style of writing letters. People waste half a page in formal titles and greetings, and never get to the actual point. I have adopted a method where I skip all formal titles and start speaking directly, as if you and I are sitting face to face, having a chat.",
       "explanation": "This letter highlights Ghalib's two most famous personal characteristics: his legendary love for mangoes and his revolutionary approach to Urdu prose.\n\nHistorically, Urdu letter writing was bogged down by complex, rhythmic Arabic and Persian honorifics. Ghalib shattered this convention by initiating 'muraasla ko mukaalma bana diya' (turning correspondence into a conversation). He wrote exactly how he spoke—with wit, informal words, and direct address.\n\nHis dialogue on mangoes is a classic piece of Urdu humor. It showcases Ghalib's ability to extract joy and playfulness from the simple things in life, despite his severe financial struggles and the turbulent political era he lived through."
@@ -335,7 +651,7 @@
       "recipient": "Alauddin Ahmad Khan Alai",
       "date_written": "1862",
       "urdu_text": "علاؤ الدین خان بہادر! تمہارا خط آیا۔ میاں، یہاں دلی میں تو اب سخت سرما کا زور ہے۔ ہاتھ پاؤں شل ہوئے جاتے ہیں اور لکھنے کا حوصلہ نہیں پڑتا۔\n\nتم نے مجھ سے میری صحت کا پوچھا۔ سچ تو یہ ہے کہ اب ضعیفی نے گھیر لیا ہے، صبح اٹھتا ہوں تو ہڈی ہڈی میں درد ہوتا ہے۔ بس ایک آتش دان کے سامنے بیٹھ کر وقت کاٹتا ہوں۔\n\nمگر تمہارے خط کی گرمی نے میرے دل کو بھی گرما دیا۔ سچ کہتے ہیں کہ سچے دوست کی تحریر موسم سرما میں ایک گرم چادر کی طرح ہوتی ہے۔ دلی کے حالات بس ایسے ہی ہیں، کچھ خوشی نہیں, کچھ غم نہیں، زندگی گزر رہی ہے۔",
-      "transliteration": "Alauddin Khan Bahadur! Tumhara khat aaya. Mian, yahan Dilli mein to ab sakht sarma ka zor hai. Haath paon shal hue jaate hain aur likhne ka hauslah nahi parta.\n\nTum ne mujh se meri sehat ka poocha. Sach to yeh hai ke ab zaeefi ne gher liya hai, subah uthta hoon to haddi haddi mein dard hota hai. Bas ek aatish daan ke saamne baith kar waqt kaatta hoon.\n\nMagar tumhare khat ki garmi ne mere dil ko bhi garma diya. Sach kehte hain ke sacche dost ki tahreer mausam-e-sarma mein ek garam chaadar ki tarah hoti hai. Dilli ke haalat bas aise hi hain, kuch khushi nahi, kuch gham nahi, zindagi guzar rahi hai.",
+      "transliteration": "Alauddin Khan Bahadur! Tumhara khat aaya. Mian, yahan Dilli mein to ab sakht sarma ka zor hai. Haath paon shal hue jaate hain aur likhne ka hauslah nahi parta.\n\nTum ne mujh se meri sehat ka poocha. Sach to yeh hai ke ab zaeefi ne gher liya hai, subah uthta hoon to haddi haddi mein dard hota hai. Bas ek aatish daan ke saamne baith کر waqt kaatta hoon.\n\nMagar tumhare khat ki garmi ne mere dil ko bhi garma diya. Sach kehte hain ke sacche dost ki tahreer mausam-e-sarma mein ek garam chaadar ki tarah hoti hai. Dilli ke haalat bas aise hi hain, kuch khushi nahi, kuch gham nahi, zindagi guzar rahi hai.",
       "translation": "My dear Alauddin Khan Bahadur! Your letter arrived. Friend, here in Delhi, the severe winter is in full force. My hands and feet feel completely numb, and I can barely find the courage to write.\n\nYou asked about my health. The truth is that old age has completely taken over; when I wake up in the morning, every bone in my body aches. I do nothing but sit in front of a fireplace to pass the time.\n\nHowever, the warmth of your letter warmed my heart. They say truly that a true friend's letter is like a warm shawl in the winter season. The state of Delhi is just average—no great joy, no great sorrow, life simply passes by.",
       "explanation": "In this letter to his close friend and disciple, Alauddin Ahmad Khan 'Alai' (a nobleman and poet), Ghalib captures the physical reality of his later years in Delhi. He uses the metaphor of the harsh winter ('sarma') to reflect his own declining physical health and the cold social atmosphere of post-rebellion Delhi.\n\nDespite his complaints about aging, Ghalib's signature wit shines through. The poetic comparison of a friend's letter to a 'warm shawl' ('garam chaadar') is an elegant example of Ghalib's conversational style, highlighting how he blended literary metaphors with everyday prose.\n\nThis correspondence shows the warmth Ghalib maintained in his personal relationships, which acted as his primary comfort during a period of financial hardship, isolation, and old age."
     },
@@ -343,8 +659,8 @@
       "title": "Letter to Har Gopal Taftah: on publishing his Urdu Diwan",
       "recipient": "Har Gopal Taftah",
       "date_written": "1859",
-      "urdu_text": "میاں تفتہ! تمہارا خط اور دیوان کے چھپنے کی خوشخبری ملی۔ میاں، میرا دیوان چھپ رہا ہے، یہ سن کر خوشی تو ہوئی، مگر ڈر بھی لگتا ہے کہ کہیں کاپی نویسوں نے غلطیاں نہ کر دی ہوں۔\n\nآج کل کے چھاپہ خانوں کا کچھ بھروسہ نہیں۔ کوئی لفظ غلط لکھ دیتے ہیں تو پورا مصرع بے معنی ہو جاتا ہے۔ میری التماس ہے کہ تم خود ایک بار پورے مسودے کو بغور دیکھ لو۔\n\nاور ہاں، کتاب کا کاغذ اچھا ہونا چاہئے۔ اگر کاغذ خراب ہوا تو پڑھنے والے کا ذوق خراب ہو جاتا ہے۔ مجھے امید ہے کہ یہ دیوان جلد ہی لوگوں کے ہاتھوں میں ہوگا اور میری محنت تھیکانے لگے گی۔",
-      "transliteration": "Mian Taftah! Tumhara khat aur deewan ke chhapne ki khushkhabari mili. Mian, mera deewan chhap raha hai, yeh sun kar khushi to hui, mager dar bhi lagta hai ke kahee copy-naveeson ne ghaltiyan na kar di hon.\n\nAaj kal ke chhaapa-khaano ka kuch bharosa nahi. Koi lafz ghalt likh dete hain to poora misra be-maani ho jaata hai. Meri iltimaas hai ke tum khud ek baar poore maswade ko baghour dekh lo.\n\nAur haan, kitaab ka kaaghaz accha hona chahiye. Agar kaaghaz kharaab hua to parhne wale ka zauq kharaab ho jaata hai. Mujhe umeed hai ke yeh deewan jald hi logon ke haathon mein hoga aur meri mehnat thikaane lagegi.\n\n",
+      "urdu_text": "میاں تفتہ! تمہارا خط اور دیوان کے چھپنے کی خوشخبرری ملی۔ میاں، میرا دیوان چھپ رہا ہے، یہ سن کر خوشی تو ہوئی، مگر ڈر بھی لگتا ہے کہ کہیں کاپی نویسوں نے غلطیاں نہ کر دی ہوں۔\n\nآج کل کے چھاپہ خانوں کا کچھ بھروسہ نہیں۔ کوئی لفظ غلط لکھ دیتے ہیں تو پورا مصرع بے معنی ہو جاتا ہے۔ میری التماس ہے کہ تم خود ایک بار پورے مسودے کو بغور دیکھ لو۔\n\nاور ہاں، کتاب کا کاغذ اچھا ہونا چاہئے۔ اگر کاغذ خراب ہوا تو پڑھنے والے کا ذوق خراب ہو جاتا ہے۔ مجھے امید ہے کہ یہ دیوان جلد ہی لوگوں کے ہاتھوں میں ہوگا اور میری محنت تھیکانے لگے گی۔",
+      "transliteration": "Mian Taftah! Tumhara khat aur deewan ke chhapne ki khushkhabari mili. Mian, mera deewan chhap raha hai, yeh sun kar khushi to hui, mager dar bhi lagta hai ke kahee copy-naveeson ne ghaltiyan na kar di hon.\n\nAaj kal ke chhaapa-khaano ka kuch bharosa nahi. Koi lafz ghalt likh dete hain to poora misra be-maani ho jaata hai. Meri iltimaas hai ke tum khud ek baar poore maswade ko baghour dekh lo.\n\nAur haan, kitaab ka kaaghaz accha hona chahiye. Agar kaaghaz kharaab hua to parhne wale ka zauq kharaab ho jaata hai. Mujhe umeed hai ke yeh deewan jald hi logon ke haathon mein hoga aur میری محنت تھیکانے لگے گی۔\n\n",
       "translation": "My dear Taftah! I received your letter and the good news about the publication of my Diwan. Friend, hearing that my Diwan is being printed makes me happy, but I am also terrified that the copyists might have introduced errors.\n\nThese days, printing presses cannot be trusted. If they write even one word incorrectly, the entire line loses its meaning. I request that you personally review the entire manuscript with great care.\n\nAlso, the paper of the book must be of good quality. If the paper is poor, it ruins the reader's aesthetic pleasure. I hope this Diwan will soon be in the hands of readers, and my lifelong labor will bear fruit.",
       "explanation": "This letter details Ghalib's anxiety and meticulous attention to the publication of his Urdu Diwan (poetry collection). During the 19th century, printing technology was in its early stages in India, and lithographic printing heavily relied on scribes (copyists or 'katibs') to write the text onto plates. Scribes frequently made copying errors, which Ghalib feared would distort his poetic intentions.\n\nAddressing Har Gopal Taftah, who was overseeing the printing process, Ghalib stresses the importance of proofreading. He notes that a single typo can ruin a 'misra' (line of poetry).\n\nHis emphasis on 'kaaghaz' (paper quality) highlights Ghalib's deep aesthetic sense. For Ghalib, bookmaking was an art form, and the physical feel and look of the book were essential to the overall literary experience."
     }

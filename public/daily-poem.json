@@ -5,7 +5,7 @@
     "urdu_title": "دلِ ناداں تجھے ہوا کیا ہے",
     "poet": "Mirza Ghalib",
     "language": "urdu",
-    "created_at": "2026-07-01 23:55:19"
+    "created_at": "2026-07-01 23:59:04"
   },
   "couplets": [
     {
@@ -33,6 +33,110 @@
       "explanation_urdu": "عاشق کی بیقراری اور محبوب کی بیزاری اردو شاعری کا ایک کلاسک موضوع ہے۔ غالب اس تضاد کو ایک ڈرامائی اور طنزیہ رنگ دیتے ہیں۔ وہ خدا کے سامنے ہاتھ پھیلا کر شکایت کرتے ہیں کہ کائنات کا یہ کیسا نظام ہے جہاں ایک طرف بے پناہ محبت ہے اور دوسری طرف مکمل سرد مہری۔",
       "context": "The asymmetry of love (longing lover vs. indifferent beloved) is a classic theme in Urdu ghazals. Ghalib elevates it here by appealing to the Divine with witty annoyance rather than self-pity.\n\nThis reflects Ghalib's philosophical viewpoint where even human relationships are seen as micro-reflections of the larger, often confusing cosmic order.",
       "context_urdu": "محبت کی نا ہمواری کو غالب نے ایک صوفیانہ اور فلسفیانہ رخ دیا ہے۔ محبوب کے در کو چھوڑ کر خدا سے گلہ کرنا ان کے بے باکانہ اندازِ تکلم کا ثبوت ہے۔"
+    },
+    {
+      "id": 3,
+      "ghazal_id": 1,
+      "couplet_number": 3,
+      "urdu_text": "میں بھی منہ میں زبان رکھتا ہوں\nکاش پوچھو کہ مدعا کیا ہے",
+      "transliteration": "Main bhi munh mein zabaan rakhta hoon\nKaash poochho ke mudda'a kya hai",
+      "translation": "I, too, possess a tongue in my mouth;\nIf only you would ask what my desire is!",
+      "urdu_translation": "میں بھی اپنے منہ میں زبان رکھتا ہوں (بول سکتا ہوں)؛ کاش تم کبھی مجھ سے پوچھو کہ میرا مقصد اور تمنا کیا ہے۔",
+      "explanation": "The poet asserts his ability to speak and express his thoughts, complaining about being ignored or silenced by the beloved. He wishes that the beloved would show enough care to ask what he truly wants ('mudda'a').\n\n'Munh mein zabaan rakhna' is a common Urdu idiom meaning to have the capacity to defend oneself or speak out. Ghalib plays on both the literal organ of speech and the metaphorical right of the lover to express his desires.",
+      "explanation_urdu": "غالب شکوہ کرتے ہیں کہ انہیں بولنے کی اجازت نہیں دی جاتی یا ان کی بات سنی نہیں جاتی۔ وہ کہتے ہیں کہ میں بھی اپنے حق میں بولنے کی صلاحیت رکھتا ہوں، کاش محبوب مجھ سے میرے دل کی بات پوچھتا۔ یہ شعر محبوب کی بے رخی اور عاشق کی خاموش تڑپ کو ظاہر کرتا ہے۔",
+      "context": "Ghalib frequently wrote about the pain of being misunderstood or silenced. This couplet reflects his pride; he will not beg for attention, but he is fully ready to declare his love if asked respectfully.",
+      "context_urdu": "یہ شعر غالب کی خودداری اور محبوب کے رویے کے درمیان کشمکش کو دکھاتا ہے۔ وہ اپنی بات زبردستی مسلط نہیں کرنا چاہتے، بلکہ محبوب کی طرف سے توجہ کے طالب ہیں۔"
+    },
+    {
+      "id": 4,
+      "ghazal_id": 1,
+      "couplet_number": 4,
+      "urdu_text": "جب کہ تجھ بن نہیں کوئی موجود\nپھر یہ ہنگامہ اے خدا کیا ہے",
+      "transliteration": "Jab ki tujh bin nahin kooi maujood\nPhir yeh hangama ai khuda kya hai",
+      "translation": "When there is no one present in the universe but You;\nThen what is this uproar (of creation), O God?",
+      "urdu_translation": "جب تیرے سوا دنیا میں کوئی دوسرا موجود ہی نہیں ہے، تو پھر یہ دنیا کا ہنگامہ اور شور و غوغا کس لئے ہے، اے خدا؟",
+      "explanation": "This is a philosophical inquiry into Sufi Monism (Wahdat-al-Wujud). The poet asks: if God is the only true reality and nothing exists besides Him, why is the world filled with so much noise, creation, and conflict? Ghalib challenges the Divine to explain the necessity of worldly illusion if absolute unity is the ultimate truth.",
+      "explanation_urdu": "یہ شعر صوفیانہ عقیدہ 'وحدت الوجود' کی تشریح کرتا ہے۔ غالب سوال کرتے ہیں کہ اگر ہر چیز میں خدا ہی کا جلوہ ہے اور تیرے سوا کوئی حقیقی وجود نہیں ہے، تو پھر یہ دنیاوی رونقیں، فتنے اور فسادات کس لئے ہیں؟ یہ انسانی عقل کا خدا کے سامنے ایک جرات مندانہ سوال ہے۔",
+      "context": "Ghalib was deeply influenced by Sufi philosophy but approached it with intellectual skepticism. This couplet showcases his style of questioning religious assumptions rather than blindly accepting them.",
+      "context_urdu": "غالب تصوف کے مسائل کو عقلی اور تنقیدی زاویے سے دیکھتے تھے۔ ان کے ہاں تصوف محض عقیدت نہیں بلکہ غور و فکر کا ایک میدان تھا۔"
+    },
+    {
+      "id": 5,
+      "ghazal_id": 1,
+      "couplet_number": 5,
+      "urdu_text": "یہ پری چہرہ لوگ کیسے ہیں\nغمزہ و عشوہ و ادا کیا ہے",
+      "transliteration": "Yeh pari-chehra log kaise hain\nGhamza o ishva o adaa kya hai",
+      "translation": "Who are these fairy-faced beauties?\nWhat are these amorous glances, coquetry, and enticing styles?",
+      "urdu_translation": "یہ پریوں جیسے چہروں والے حسین لوگ کون ہیں؟ اور ان کے غمزے، نخرے، اشارے اور ادائیں کیا چیز ہیں؟",
+      "explanation": "Continuing the philosophical questioning of the previous verse, Ghalib asks: if only God exists, then what are these beautiful human beings ('pari-chehra')? Why are they blessed with seductive glances ('ghamza'), coquetry ('ishva'), and charming gestures ('ada')? Ghalib explores the tension between Divine unity and the overwhelming pull of human beauty.",
+      "explanation_urdu": "پچھلے شعر کے تسلسل میں غالب پوچھتے ہیں کہ اگر کائنات میں صرف خدا ہے، تو پھر یہ حسین چہرے کہاں سے آئے؟ اور ان کے ناز و انداز، نخرے اور ادائیں کیا معنی رکھتے ہیں؟ یہ دنیا کی ظاہری خوبصورتی اور اس کے باطنی سچ کے درمیان پائے جانے والے تضاد پر گہرا غور ہے۔",
+      "context": "Classical Persian and Urdu poetry frequently links the beauty of the beloved to the beauty of the Creator. Ghalib turns this theological link into an active poetic question.",
+      "context_urdu": "حسنِ مجازی کو حسنِ حقیقی کا آئینہ دار مانا گیا ہے۔ غالب یہاں اسی فلسفے کو ایک خوبصورت اور دلکش شعری لباس پہناتے ہیں۔"
+    },
+    {
+      "id": 6,
+      "ghazal_id": 1,
+      "couplet_number": 6,
+      "urdu_text": "شکنِ زلفِ عنبریں کیوں ہے\nنگہِ چشمِ سرمہ سا کیا ہے",
+      "transliteration": "Shikan-e-zulf-e-ambareen kyun hai\nNigah-e-chashm-e-surma saa kya hai",
+      "translation": "Why are there curls in these fragrant tresses?\nWhat is this gaze from these kohl-lined eyes?",
+      "urdu_translation": "ان خوشبودار بالوں میں یہ خم (شکن) کیوں ہے؟ اور سرمہ لگی ہوئی آنکھوں کے اس اشارے اور نظر کا کیا مطلب ہے؟",
+      "explanation": "Ghalib continues to dissect the details of physical beauty. He asks why the beloved's hair is curled and fragrant ('zulf-e-ambareen') and what the significance is of a gaze ('nigah') from eyes decorated with kohl ('surma'). These details are presented as existential questions, treating the beloved's physical charms as mysteries that challenge the mind.",
+      "explanation_urdu": "غالب محبوب کے سراپے کی تعریف کرتے ہوئے پوچھتے ہیں کہ ان زلفوں کی خوشبو اور پیچ و خم کا مقصد کیا ہے؟ اور سرمئی آنکھوں کے اشاروں کا کیا مطلب ہے؟ وہ محبوب کے حسن کو محض مادی شے نہیں بلکہ ایک راز کی طرح پیش کرتے ہیں۔",
+      "context": "Curls in hair and kohl-lined eyes are standard metaphors for entrapment and injury in love. Ghalib utilizes them here to emphasize how details of human beauty create a complex web of attraction.",
+      "context_urdu": "زلفوں کے پیچ و خم اور سرمئی آنکھیں روایتی شاعری کے اہم موضوعات ہیں۔ غالب نے انہیں اپنے خاص فلسفیانہ اور سوالیہ انداز میں ڈھالا ہے۔"
+    },
+    {
+      "id": 7,
+      "ghazal_id": 1,
+      "couplet_number": 7,
+      "urdu_text": "سبزہ و گل کہاں سے آئے ہیں\nابر کیا چیز ہے ہوا کیا ہے",
+      "transliteration": "Sabza o gul kahaan se aaye hain\nAbr kya cheez hai havā kya hai",
+      "translation": "Where have this greenery and these flowers come from?\nWhat is a cloud, what is the wind?",
+      "urdu_translation": "یہ ہریالی اور پھول کہاں سے ابھرے ہیں؟ یہ بادل کیا چیز ہے اور یہ ہوا کیا ہے؟",
+      "explanation": "Expanding his inquiry from human beauty to the natural world, Ghalib questions the origins of greenery ('sabza'), flowers ('gul'), clouds ('abr'), and wind ('hava'). The couplet captures a sense of childlike wonder combined with deep philosophical curiosity, challenging the viewer to look beyond the ordinary and ask 'why' nature is the way it is.",
+      "explanation_urdu": "انسانی حسن سے ہٹ کر اب غالب فطرت کی طرف متوجہ ہوتے ہیں۔ وہ پوچھتے ہیں کہ یہ سبزہ، پھول، بادل اور ہوا کہاں سے آئے اور ان کا وجود کیا ہے؟ یہ شعر کائنات کے مظاہر پر حیرت اور تجسس کا بہترین اظہار ہے۔",
+      "context": "This couplet is highly regarded for its simplicity. Ghalib uses very basic vocabulary to ask foundational questions about the universe, reflecting his belief that the familiar world is filled with unseen mysteries.",
+      "context_urdu": "سادہ الفاظ میں کائناتی سچائیوں پر غور کرنا غالب کا کمال ہے۔ یہ شعر انسان کو اپنے اردگرد کی خوبصورتی پر غور کرنے کی دعوت دیتا ہے۔"
+    },
+    {
+      "id": 8,
+      "ghazal_id": 1,
+      "couplet_number": 8,
+      "urdu_text": "ہم کو ان سے وفا کی ہے امید\nجو نہیں جانتے وفا کیا ہے",
+      "transliteration": "Hum ko un se vafā ki hai ummeed\nJo nahin jaante vafā kya hai",
+      "translation": "I expect faithfulness from someone\nWho does not even know what faithfulness is.",
+      "urdu_translation": "ہمیں ان سے وفاداری اور محبت کی امید ہے جو سرے سے جانتے ہی نہیں کہ وفا کس چڑیا کا نام ہے۔",
+      "explanation": "This couplet highlights the tragic irony of human love. The poet admits that he expects loyalty and love ('vafa') from a beloved who is completely ignorant of the concept. It describes the stubbornness of human desire: we continue to seek warmth from the cold and expect commitment from the uncommitted.",
+      "explanation_urdu": "یہ شعر انسانی نفسیات اور محبت کے تضاد کو بیان کرتا ہے۔ غالب تسلیم کرتے ہیں کہ ان کی امیدیں ایسے شخص سے وابستہ ہیں جو وفا کی تعریف سے بھی ناواقف ہے۔ یہ عاشق کی بے بسی اور محبت کی ضد کو خوبصورتی سے پیش کرتا ہے۔",
+      "context": "Expectations in love often lead to disappointment. Ghalib captures this tragic human error with a touch of irony rather than despair, suggesting that the drive to love is stronger than the intellect.",
+      "context_urdu": "محبت کی ناکامی اور لاحاصل تمناؤں پر غالب کا یہ تبصرہ ان کے کلام کے سب سے زیادہ دہرائے جانے والے حصوں میں سے ایک ہے۔"
+    },
+    {
+      "id": 9,
+      "ghazal_id": 1,
+      "couplet_number": 9,
+      "urdu_text": "جان تم پر نثار کرتا ہوں\nمیں نہیں جانتا دعا کیا ہے",
+      "transliteration": "Jaan tum par nisār karta hoon\nMain nahin jaanta duā kya hai",
+      "translation": "I sacrifice my life for you;\nI do not know how to pray (or what prayer is).",
+      "urdu_translation": "میں اپنی جان تم پر قربان کرنے کو تیار ہوں، میں نہیں جانتا کہ دعاؤں کے طویل چکر کیا ہوتے ہیں۔",
+      "explanation": "The poet declares the ultimate devotion: instead of offering words of prayer ('dua'), he offers his physical life ('jaan') as a sacrifice. He asserts that active, self-sacrificing love is superior to passive, spoken prayers, replacing formal religious rituals with absolute dedication to the beloved.",
+      "explanation_urdu": "غالب محبت کی انتہا بیان کرتے ہوئے کہتے ہیں کہ میں تمہارے لئے لمبی لمبی دعائیں مانگنا نہیں جانتا، میں تو بس اپنی جان تم پر قربان کرنا جانتا ہوں۔ یہ زبانی جمع خرچ کے بجائے عملی محبت کا ثبوت ہے۔",
+      "context": "In classical Urdu ghazals, sacrificing one's life is the ultimate proof of love. Ghalib positions his simple action above religious or formal supplication.",
+      "context_urdu": "ریاکاری اور زبانی دعووں کے مقابلے میں جان کی قربانی کو غالب نے سچی محبت کا معیار ٹھہرایا ہے۔"
+    },
+    {
+      "id": 10,
+      "ghazal_id": 1,
+      "couplet_number": 10,
+      "urdu_text": "میں نے مانا کہ کچھ نہیں غالب\nمفت ہاتھ آئے تو برا کیا ہے",
+      "transliteration": "Main ne maana ki kuchh nahin Ghalib\nMuft haath aaye to bura kya hai",
+      "translation": "I admit that 'Ghalib' is worth nothing;\nBut if he is available for free, what is the harm?",
+      "urdu_translation": "میں تسلیم کرتا ہوں کہ غالب کی کوئی قیمت اور حیثیت نہیں ہے، لیکن اگر وہ بغیر کسی قیمت کے مل جائے تو اسے رکھنے میں کیا حرج ہے؟",
+      "explanation": "This is the signature closing couplet (Maqta). Ghalib uses his pen name to poke fun at himself. He tells the beloved: yes, I admit Ghalib is a worthless, poor man. But since you don't have to pay anything to keep him around as a lover, why not accept him? It blends humor, self-deprecation, and ultimate charm.",
+      "explanation_urdu": "شعر کے آخری حصے (مقطع) میں غالب نے اپنی ذات پر طنز کیا ہے۔ وہ محبوب سے کہتے ہیں کہ میں مانتا ہوں کہ غالب کی کوئی اوقات نہیں ہے، لیکن اگر وہ مفت میں مل رہا ہے تو اسے قبول کرنے میں کیا نقصان ہے؟ یہ غالب کی شگفتگی اور خود اعتمادی کی عکاسی کرتا ہے۔",
+      "context": "Ghalib was famous for his absolute lack of arrogance in his Urdu poetry, frequently making himself the target of his own wit, which makes the closing lines of his ghazals extremely memorable.",
+      "context_urdu": "غالب نے اپنے مقطعوں میں اکثر اپنی ذات پر طنز کیا ہے، جو ان کے کلام کو روایتی درباری شاعروں سے ممتاز بناتا ہے۔"
     }
   ]
 }
