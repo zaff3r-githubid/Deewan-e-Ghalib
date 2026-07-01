@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3033",
+    "prebuild": "node scripts/toggle-dynamic-routes.js hide",
     "build": "next build",
+    "postbuild": "node scripts/toggle-dynamic-routes.js restore",
     "start": "next start -p 3033",
     "lint": "eslint",
     "seed": "node scripts/seed.js",
+    "send-daily": "node scripts/send-daily.js",
     "predeploy": "npm run seed",
     "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t"
   },

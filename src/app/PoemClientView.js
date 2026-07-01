@@ -12,6 +12,55 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
   const [subscribeStatus, setSubscribeStatus] = useState({ state: "idle", message: "" });
   const [commentaryLang, setCommentaryLang] = useState("en"); // 'en' or 'ur'
 
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    if (!email || !email.includes("@")) {
+      setSubscribeStatus({ state: "error", message: "Please enter a valid email address." });
+      return;
+    }
+
+    setSubscribeStatus({ state: "loading", message: "" });
+
+    try {
+      const response = await fetch("/Deewan-e-Ghalib/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      }).catch(async () => {
+        // Fallback to absolute path if basePath fails or during dev/production variation
+        return fetch("/api/subscribe", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        });
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        setSubscribeStatus({
+          state: "success",
+          message: data.message,
+        });
+        setEmail("");
+      } else {
+        setSubscribeStatus({
+          state: "error",
+          message: data.error || "Failed to subscribe. Please try again.",
+        });
+      }
+    } catch (err) {
+      setSubscribeStatus({
+        state: "error",
+        message: "Failed to connect to the subscription service. Server-side API endpoints are not active on static deployments.",
+      });
+    }
+  };
+
   // Toggle accordions
   const toggleSection = (coupletIndex, section) => {
     setExpandedSections((prev) => {
@@ -421,24 +470,49 @@ export default function PoemClientView({ poemData, isArchiveView = false }) {
           })}
         </section>
 
-        {/* Newsletter Signup Form Widget (Google Forms) */}
+        {/* Newsletter Signup Form Widget */}
         {!isArchiveView && (
           <section className="glass-panel" style={{ padding: "40px", marginTop: "60px", textAlign: "center" }}>
             <h2 style={{ fontSize: "1.8rem", color: "var(--color-gold)", marginBottom: "12px" }}>
               A Poem A Day In Your Inbox
             </h2>
             <p style={{ color: "var(--color-text-secondary)", maxWidth: "500px", margin: "0 auto 28px auto", fontSize: "0.95rem", lineHeight: "1.6" }}>
-              Join other lovers of classical literature. Sign up using our Google Form to receive a beautifully annotated ghazal couplet breakdown in your inbox every single morning.
+              Join other lovers of classical literature. Enter your email below to receive a beautifully annotated ghazal couplet breakdown in your inbox every single morning.
             </p>
-            <a 
-              href="https://forms.gle/bdd6Xr2SPgmUsoC57" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="btn-primary"
-              style={{ textDecoration: "none", display: "inline-block" }}
-            >
-              📩 Subscribe via Google Forms
-            </a>
+            <form onSubmit={handleSubscribe} className="newsletter-form" style={{ maxWidth: "450px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "16px" }}>
+              <div className="input-group">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="input-field"
+                  placeholder=" "
+                  required
+                  disabled={subscribeStatus.state === "loading"}
+                />
+                <label className="input-label">Email Address</label>
+              </div>
+              <button
+                type="submit"
+                className="btn-primary"
+                disabled={subscribeStatus.state === "loading"}
+                style={{ cursor: "pointer", fontWeight: "600", width: "100%" }}
+              >
+                {subscribeStatus.state === "loading" ? "Subscribing..." : "📩 Subscribe to Daily Poem"}
+              </button>
+              {subscribeStatus.message && (
+                <p style={{
+                  marginTop: "12px",
+                  fontSize: "0.9rem",
+                  color: subscribeStatus.state === "success" ? "var(--color-emerald)" : "#f87171"
+                }}>
+                  {subscribeStatus.message}
+                </p>
+              )}
+            </form>
+            <p style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", marginTop: "24px" }}>
+              Prefer Google Forms? <a href="https://forms.gle/bdd6Xr2SPgmUsoC57" target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-gold)", textDecoration: "underline" }}>Subscribe via Google Forms instead</a>.
+            </p>
           </section>
         )}
 
