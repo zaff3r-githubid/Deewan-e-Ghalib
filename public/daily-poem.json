@@ -1,0 +1,25 @@
+{
+  "ghazal": {
+    "id": 2,
+    "title": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle",
+    "urdu_title": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+    "poet": "Mirza Ghalib",
+    "language": "urdu",
+    "created_at": "2026-06-30 00:47:01"
+  },
+  "couplets": [
+    {
+      "id": 3,
+      "ghazal_id": 2,
+      "couplet_number": 1,
+      "urdu_text": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے\nبہت نکلے میرے ارمان لیکن پھر بھی کم نکلے",
+      "transliteration": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle\nBohat nikle mere armaan lekin phir bhi kam nikle",
+      "translation": "Thousands of desires, each so intense that it takes my breath away;\nMany of my yearnings were fulfilled, yet they feel all too few.",
+      "urdu_translation": "میری ہزاروں خواہشیں ایسی ہیں کہ ہر خواہش پر جان نکلے۔ میرے بہت سے ارمان پورے ہوئے لیکن پھر بھی وہ بہت کم لگتے ہیں۔",
+      "explanation": "This is perhaps Ghalib's most celebrated verse. It defines the insatiable nature of human desire. The poet notes that he has thousands of desires, each so intense that it is worth dying for ('dam nikle'). Even though countless desires of his were fulfilled, they still feel like a drop in the ocean compared to what remains unfulfilled.\n\nGhalib outlines a core existential truth: desire is infinite, whereas human life and satisfaction are finite. No matter how many dreams are realized, the human spirit continues to yearn for more, leaving one perpetually unfulfilled.",
+      "explanation_urdu": "یہ شعر انسانی خواہشات کی لا متناہی حدوں کی عکاسی کرتا ہے۔ غالب فرماتے ہیں کہ ہر خواہش اتنی دلکش ہے کہ اس پر جان قربان کی جا سکتی ہے۔ انسان کی یہ نفسیات ہے کہ کتنی ہی خواہشات پوری ہو جائیں، وہ ہمیشہ نا کافی محسوس ہوتی ہیں۔ یہ انسانی لالچ اور لامتناہی تمناؤں پر ایک گہرا فلسفیانہ تبصرہ ہے۔",
+      "context": "Ghalib reflects on the human condition and the endless cycle of wants. It reflects his own biography, marked by great ambitions and financial hardships.\n\nThe verse highlights the transition in Urdu poetry from describing romantic longing to exploring universal human psychology.",
+      "context_urdu": "غالب کی اپنی زندگی مالی تنگیوں اور ادھورے خوابوں سے بھری ہوئی تھی، اس لئے ان کے کلام میں خواہشات کا یہ نوحہ نہایت ذاتی محسوس ہوتا ہے، مگر یہ کائناتی سچائی کا درجہ رکھتا ہے۔"
+    }
+  ]
+}

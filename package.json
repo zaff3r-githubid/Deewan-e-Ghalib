@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3033",
-    "prebuild": "node scripts/toggle-dynamic-routes.js hide",
+    "prebuild": "node scripts/toggle-dynamic-routes.js hide && node scripts/generate-daily-json.js",
     "build": "next build",
     "postbuild": "node scripts/toggle-dynamic-routes.js restore",
     "start": "next start -p 3033",
