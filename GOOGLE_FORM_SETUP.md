@@ -25,7 +25,9 @@ Here is how to set up the complete system:
 
 ## Step 2: Add the Webhook and Mailer Code
 
-Clear any default code in the editor and paste the following Google Apps Script code:
+Clear any default code in the editor and paste the following Google Apps Script code. 
+
+*(Note: This code has been written using standard ES5 JavaScript string concatenation to ensure it saves successfully regardless of whether your Google Apps Script project uses the legacy Rhino engine or the modern V8 engine)*:
 
 ```javascript
 // Google Apps Script code to send Welcome and Daily Poem emails
@@ -60,27 +62,27 @@ function onFormSubmit(e) {
 
 function sendWelcomeEmail(toEmail) {
   var subject = "Welcome to Deewan-e-Ghalib: Your Daily Poem Subscription";
-  var htmlBody = `
-    <div style="background-color: #0a0c10; color: #f3f4f6; font-family: sans-serif; padding: 40px 10px;">
-      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #12161f; border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 12px; padding: 40px;">
-        <tr>
-          <td align="center" style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 20px;">
-            <h1 style="margin: 0; font-size: 24px; color: #e5c158; font-weight: 700;">Welcome to Deewan-e-Ghalib!</h1>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding: 30px 0; font-size: 15px; line-height: 1.6; color: #d1d5db;">
-            <p>Aadaab,</p>
-            <p>Thank you for subscribing to the <strong>Deewan-e-Ghalib Daily Poem</strong> newsletter. You have taken a beautiful step into the profound, rich, and mystical world of Mirza Asadullah Khan Ghalib.</p>
-            <p>Starting tomorrow, you will receive one beautiful couplet-by-couplet translation, Roman transliteration, and deep scholarly commentary in your inbox every day.</p>
-            <p>To view today's poem immediately, visit our homepage at <a href="https://zaff3r-githubid.github.io/Deewan-e-Ghalib" style="color: #e5c158; text-decoration: underline;">Deewan-e-Ghalib</a>.</p>
-            <p>We are delighted to have you join us on this poetic journey.</p>
-            <p style="margin-top: 30px;">Warmly,<br/>The Deewan-e-Ghalib team</p>
-          </td>
-        </tr>
-      </table>
-    </div>
-  `;
+  var htmlBody = [
+    '<div style="background-color: #0a0c10; color: #f3f4f6; font-family: sans-serif; padding: 40px 10px;">',
+    '  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 0 auto; background-color: #12161f; border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 12px; padding: 40px;">',
+    '    <tr>',
+    '      <td align="center" style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 20px;">',
+    '        <h1 style="margin: 0; font-size: 24px; color: #e5c158; font-weight: 700;">Welcome to Deewan-e-Ghalib!</h1>',
+    '      </td>',
+    '    </tr>',
+    '    <tr>',
+    '      <td style="padding: 30px 0; font-size: 15px; line-height: 1.6; color: #d1d5db;">',
+    '        <p>Aadaab,</p>',
+    '        <p>Thank you for subscribing to the <strong>Deewan-e-Ghalib Daily Poem</strong> newsletter. You have taken a beautiful step into the profound, rich, and mystical world of Mirza Asadullah Khan Ghalib.</p>',
+    '        <p>Starting tomorrow, you will receive one beautiful couplet-by-couplet translation, Roman transliteration, and deep scholarly commentary in your inbox every day.</p>',
+    '        <p>To view today\'s poem immediately, visit our homepage at <a href="https://zaff3r-githubid.github.io/Deewan-e-Ghalib" style="color: #e5c158; text-decoration: underline;">Deewan-e-Ghalib</a>.</p>',
+    '        <p>We are delighted to have you join us on this poetic journey.</p>',
+    '        <p style="margin-top: 30px;">Warmly,<br/>The Deewan-e-Ghalib team</p>',
+    '      </td>',
+    '    </tr>',
+    '  </table>',
+    '</div>'
+  ].join('\n');
   
   MailApp.sendEmail({
     to: toEmail,
@@ -110,70 +112,70 @@ function sendDailyPoem() {
   var title = poemData.ghazal.title;
   var couplets = poemData.couplets;
   
-  // Format couplets HTML body
+  // Format couplets HTML body using ES5 string array joining
   var coupletsHtml = couplets.map(function(c) {
     var urduLines = c.urdu_text.split("\n");
     var transliterationLines = c.transliteration.split("\n");
     var translationLines = c.translation.split("\n");
     
-    return `
-      <div style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(212, 175, 55, 0.15); text-align: center;">
-        <div style="font-size: 14px; color: #e5c158; font-weight: 600; letter-spacing: 0.1em; margin-bottom: 12px; text-transform: uppercase;">
-          Couplet ${c.couplet_number}
-        </div>
-        <div style="font-size: 24px; line-height: 2; margin-bottom: 20px; color: #f3f4f6;">
-          ${urduLines[0] || ""}<br/>${urduLines[1] || ""}
-        </div>
-        <div style="font-size: 16px; font-style: italic; color: #9ca3af; margin-bottom: 20px; line-height: 1.6;">
-          ${transliterationLines[0] || ""}<br/>${transliterationLines[1] || ""}
-        </div>
-        <div style="font-size: 16px; font-weight: 500; color: #e5c158; margin-bottom: 20px; line-height: 1.6;">
-          ${translationLines[0] || ""}<br/>${translationLines[1] || ""}
-        </div>
-        <div style="text-align: left; background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #e5c158; padding: 15px; margin-top: 15px; border-radius: 4px;">
-          <h4 style="margin: 0 0 8px 0; font-size: 14px; color: #f3f4f6; text-transform: uppercase; letter-spacing: 0.05em;">Commentary</h4>
-          <p style="margin: 0; font-size: 14px; color: #d1d5db; line-height: 1.6;">${c.explanation}</p>
-          <h5 style="margin: 12px 0 6px 0; font-size: 12px; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em;">Context & Inspiration</h5>
-          <p style="margin: 0; font-size: 13px; color: #9ca3af; line-height: 1.6;">${c.context}</p>
-        </div>
-      </div>
-    `;
-  }).join("");
+    return [
+      '<div style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid rgba(212, 175, 55, 0.15); text-align: center;">',
+      '  <div style="font-size: 14px; color: #e5c158; font-weight: 600; letter-spacing: 0.1em; margin-bottom: 12px; text-transform: uppercase;">',
+      '    Couplet ' + c.couplet_number,
+      '  </div>',
+      '  <div style="font-size: 24px; line-height: 2; margin-bottom: 20px; color: #f3f4f6;">',
+      '    ' + (urduLines[0] || "") + '<br/>' + (urduLines[1] || ""),
+      '  </div>',
+      '  <div style="font-size: 16px; font-style: italic; color: #9ca3af; margin-bottom: 20px; line-height: 1.6;">',
+      '    ' + (transliterationLines[0] || "") + '<br/>' + (transliterationLines[1] || ""),
+      '  </div>',
+      '  <div style="font-size: 16px; font-weight: 500; color: #e5c158; margin-bottom: 20px; line-height: 1.6;">',
+      '    ' + (translationLines[0] || "") + '<br/>' + (translationLines[1] || ""),
+      '  </div>',
+      '  <div style="text-align: left; background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #e5c158; padding: 15px; margin-top: 15px; border-radius: 4px;">',
+      '    <h4 style="margin: 0 0 8px 0; font-size: 14px; color: #f3f4f6; text-transform: uppercase; letter-spacing: 0.05em;">Commentary</h4>',
+      '    <p style="margin: 0; font-size: 14px; color: #d1d5db; line-height: 1.6;">' + c.explanation + '</p>',
+      '    <h5 style="margin: 12px 0 6px 0; font-size: 12px; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em;">Context & Inspiration</h5>',
+      '    <p style="margin: 0; font-size: 13px; color: #9ca3af; line-height: 1.6;">' + c.context + '</p>',
+      '  </div>',
+      '</div>'
+    ].join('\n');
+  }).join('\n');
   
-  var emailHtml = `
-    <!DOCTYPE html>
-    <html>
-    <body style="background-color: #0a0c10; color: #f3f4f6; font-family: sans-serif; margin: 0; padding: 0;">
-      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #0a0c10; padding: 40px 10px;">
-        <tr>
-          <td align="center">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #12161f; border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 12px; padding: 40px;">
-              <tr>
-                <td align="center" style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 20px;">
-                  <div style="font-size: 12px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 8px;">Deewan-e-Ghalib</div>
-                  <h1 style="margin: 0; font-size: 24px; color: #e5c158; font-weight: 700; letter-spacing: -0.02em;">Poem of the Day</h1>
-                  <p style="margin: 8px 0 0 0; font-size: 14px; color: #9ca3af; font-style: italic;">"${title}"</p>
-                </td>
-              </tr>
-              <tr>
-                <td style="padding-top: 45px;">
-                  ${coupletsHtml}
-                </td>
-              </tr>
-              <tr>
-                <td align="center" style="border-top: 1px solid rgba(212, 175, 55, 0.2); padding-top: 30px; margin-top: 30px;">
-                  <p style="margin: 0; font-size: 13px; color: #9ca3af; text-align: center;">
-                    You are receiving this because you signed up for the daily Deewan-e-Ghalib email newsletter.
-                  </p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </body>
-    </html>
-  `;
+  var emailHtml = [
+    '<!DOCTYPE html>',
+    '<html>',
+    '<body style="background-color: #0a0c10; color: #f3f4f6; font-family: sans-serif; margin: 0; padding: 0;">',
+    '  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #0a0c10; padding: 40px 10px;">',
+    '    <tr>',
+    '      <td align="center">',
+    '        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #12161f; border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 12px; padding: 40px;">',
+    '          <tr>',
+    '            <td align="center" style="border-bottom: 1px solid rgba(212, 175, 55, 0.2); padding-bottom: 20px;">',
+    '              <div style="font-size: 12px; font-weight: 600; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 8px;">Deewan-e-Ghalib</div>',
+    '              <h1 style="margin: 0; font-size: 24px; color: #e5c158; font-weight: 700; letter-spacing: -0.02em;">Poem of the Day</h1>',
+    '              <p style="margin: 8px 0 0 0; font-size: 14px; color: #9ca3af; font-style: italic;">"' + title + '"</p>',
+    '            </td>',
+    '          </tr>',
+    '          <tr>',
+    '            <td style="padding-top: 45px;">',
+    '              ' + coupletsHtml,
+    '            </td>',
+    '          </tr>',
+    '          <tr>',
+    '            <td align="center" style="border-top: 1px solid rgba(212, 175, 55, 0.2); padding-top: 30px; margin-top: 30px;">',
+    '              <p style="margin: 0; font-size: 13px; color: #9ca3af; text-align: center;">',
+    '                You are receiving this because you signed up for the daily Deewan-e-Ghalib email newsletter.',
+    '              </p>',
+    '            </td>',
+    '          </tr>',
+    '        </table>',
+    '      </td>',
+    '    </tr>',
+    '  </table>',
+    '</body>',
+    '</html>'
+  ].join('\n');
   
   var subject = "Deewan-e-Ghalib: Poem of the Day - " + title;
   
