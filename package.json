@@ -12,7 +12,7 @@
     "seed": "node scripts/seed.js",
     "send-daily": "node scripts/send-daily.js",
     "predeploy": "npm run seed",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t"
+    "deploy": "npm run build && touch out/.nojekyll && gh-pages -d out -t"
   },
   "dependencies": {
     "@google/genai": "^2.10.0",
