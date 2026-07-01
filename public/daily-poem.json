@@ -1,25 +1,38 @@
 {
   "ghazal": {
-    "id": 2,
-    "title": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle",
-    "urdu_title": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے",
+    "id": 1,
+    "title": "Dil-e-nadaan tujhe hua kya hai",
+    "urdu_title": "دلِ ناداں تجھے ہوا کیا ہے",
     "poet": "Mirza Ghalib",
     "language": "urdu",
-    "created_at": "2026-06-30 00:47:01"
+    "created_at": "2026-07-01 23:55:19"
   },
   "couplets": [
     {
-      "id": 3,
-      "ghazal_id": 2,
+      "id": 1,
+      "ghazal_id": 1,
       "couplet_number": 1,
-      "urdu_text": "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے\nبہت نکلے میرے ارمان لیکن پھر بھی کم نکلے",
-      "transliteration": "Hazaaron khwahishein aisi ke har khwahish pe dam nikle\nBohat nikle mere armaan lekin phir bhi kam nikle",
-      "translation": "Thousands of desires, each so intense that it takes my breath away;\nMany of my yearnings were fulfilled, yet they feel all too few.",
-      "urdu_translation": "میری ہزاروں خواہشیں ایسی ہیں کہ ہر خواہش پر جان نکلے۔ میرے بہت سے ارمان پورے ہوئے لیکن پھر بھی وہ بہت کم لگتے ہیں۔",
-      "explanation": "This is perhaps Ghalib's most celebrated verse. It defines the insatiable nature of human desire. The poet notes that he has thousands of desires, each so intense that it is worth dying for ('dam nikle'). Even though countless desires of his were fulfilled, they still feel like a drop in the ocean compared to what remains unfulfilled.\n\nGhalib outlines a core existential truth: desire is infinite, whereas human life and satisfaction are finite. No matter how many dreams are realized, the human spirit continues to yearn for more, leaving one perpetually unfulfilled.",
-      "explanation_urdu": "یہ شعر انسانی خواہشات کی لا متناہی حدوں کی عکاسی کرتا ہے۔ غالب فرماتے ہیں کہ ہر خواہش اتنی دلکش ہے کہ اس پر جان قربان کی جا سکتی ہے۔ انسان کی یہ نفسیات ہے کہ کتنی ہی خواہشات پوری ہو جائیں، وہ ہمیشہ نا کافی محسوس ہوتی ہیں۔ یہ انسانی لالچ اور لامتناہی تمناؤں پر ایک گہرا فلسفیانہ تبصرہ ہے۔",
-      "context": "Ghalib reflects on the human condition and the endless cycle of wants. It reflects his own biography, marked by great ambitions and financial hardships.\n\nThe verse highlights the transition in Urdu poetry from describing romantic longing to exploring universal human psychology.",
-      "context_urdu": "غالب کی اپنی زندگی مالی تنگیوں اور ادھورے خوابوں سے بھری ہوئی تھی، اس لئے ان کے کلام میں خواہشات کا یہ نوحہ نہایت ذاتی محسوس ہوتا ہے، مگر یہ کائناتی سچائی کا درجہ رکھتا ہے۔"
+      "urdu_text": "دلِ ناداں تجھے ہوا کیا ہے\nآخر اس درد کی دوا کیا ہے",
+      "transliteration": "Dil-e-nadaan tujhe hua kya hai\nAakhir is dard ki dawa kya hai",
+      "translation": "O foolish heart, what has happened to you?\nAfter all, what is the cure for this pain?",
+      "urdu_translation": "اے نادان دل! تجھے آخر کیا ہو گیا ہے؟ اور تیرے اس درد کا علاج کیا ہے؟",
+      "explanation": "In this iconic opening couplet, Ghalib addresses his own heart as 'nadaan' (foolish or naive). He questions the origin of the longing and desire that is causing it pain, realizing that there is no obvious medicine or remedy for the affliction of love and existential restlessness.\n\nGhalib masterfully contrasts the heart's natural innocence and ignorance with the harsh reality of pain. The poem opens with a self-reflective question that captures the irony of human desire: we seek love knowing it leads to suffering, and then wonder why we suffer.",
+      "explanation_urdu": "غالب اپنے دل کو 'ناداں' کہہ کر مخاطب کرتے ہیں۔ وہ دل کی معصومیت اور بے وقوفی کا موازنہ عشق کے شدید درد سے کرتے ہیں۔ وہ خود سے سوال کرتے ہیں کہ اس درد کا آخر کیا علاج ہے، کیونکہ وہ جانتے ہیں کہ عشق کا کوئی مادی علاج یا دوا نہیں ہے۔ یہ سوال انسانی وجود اور خواہشات کی لایعنیت کو ظاہر کرتا ہے۔",
+      "context": "Ghalib frequently engages in self-dialogue. By calling his heart 'nadaan', he creates a distance between his intellectual, observing self and his emotional, suffering self.\n\nThis division allows him to look at his own psychological state with a mix of irony and sympathy, a style that broke away from traditional self-pity in Urdu ghazals.",
+      "context_urdu": "غالب کی شاعری کی ایک بڑی خصوصیت خود کلامی ہے۔ اپنے دل کو مخاطب کر کے وہ اپنی جذباتی اور فکری حالت کا جائزہ ایک فلسفی کی طرح لیتے ہیں، جو روایتی گریہ و زاری کے بجائے طنز و مزاح کا پہلو پیدا کرتا ہے۔"
+    },
+    {
+      "id": 2,
+      "ghazal_id": 1,
+      "couplet_number": 2,
+      "urdu_text": "ہم ہیں مشتاق اور وہ بیزار\nیا الٰہی یہ ماجرا کیا ہے",
+      "transliteration": "Hum hain mushtaq aur woh bezaar\nYa ilaahi yeh maajra kya hai",
+      "translation": "We are full of desire and they are indifferent;\nO Lord, what is this affair?",
+      "urdu_translation": "ہم تو ان سے ملنے کے آرزومند ہیں اور وہ ہم سے بیزار اور تنگ ہیں، اے خدا! یہ کیا معاملہ ہے؟",
+      "explanation": "The poet contrasts his own intense passion and longing ('mushtaq') with the beloved's utter indifference, annoyance, or weariness ('bezaar'). He turns to God in mock bewilderment, asking why love is structured with such painful, lopsided asymmetry.\n\nGhalib uses the word 'maajra' (happening or phenomenon) to describe the unequal dynamic of love as if it were a grand cosmic puzzle. The irony lies in addressing God ('Ya ilaahi') about a local mortal relationship, showing Ghalib's trademark wit.",
+      "explanation_urdu": "عاشق کی بیقراری اور محبوب کی بیزاری اردو شاعری کا ایک کلاسک موضوع ہے۔ غالب اس تضاد کو ایک ڈرامائی اور طنزیہ رنگ دیتے ہیں۔ وہ خدا کے سامنے ہاتھ پھیلا کر شکایت کرتے ہیں کہ کائنات کا یہ کیسا نظام ہے جہاں ایک طرف بے پناہ محبت ہے اور دوسری طرف مکمل سرد مہری۔",
+      "context": "The asymmetry of love (longing lover vs. indifferent beloved) is a classic theme in Urdu ghazals. Ghalib elevates it here by appealing to the Divine with witty annoyance rather than self-pity.\n\nThis reflects Ghalib's philosophical viewpoint where even human relationships are seen as micro-reflections of the larger, often confusing cosmic order.",
+      "context_urdu": "محبت کی نا ہمواری کو غالب نے ایک صوفیانہ اور فلسفیانہ رخ دیا ہے۔ محبوب کے در کو چھوڑ کر خدا سے گلہ کرنا ان کے بے باکانہ اندازِ تکلم کا ثبوت ہے۔"
     }
   ]
 }

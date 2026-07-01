@@ -142,6 +142,74 @@
               "meaning_english": "Yearnings / longings"
             }
           ]
+        },
+        {
+          "couplet_number": 2,
+          "urdu_text": "نکلنا خلد سے آدم کا سنتے آئے ہیں لیکن\nبہت بے آبرو ہو کر ترے کوچے سے ہم نکلے",
+          "transliteration": "Nikalna khuld se aadam ka sunte aaye hain lekin\nBohat be-aabroo ho kar tere kooche se hum nikle",
+          "translation": "We have heard of Adam's expulsion from paradise, but with far greater ignominy did I depart your street.",
+          "urdu_translation": "ہم حضرت آدم علیہ السلام کا جنت سے نکالا جانا سنتے آئے ہیں لیکن ہم تیرے کوچے (گلی) سے بہت زیادہ بے عزت ہو کر نکلے۔",
+          "explanation": "Ghalib compares his painful expulsion from his beloved's street to the historic, mythic fall of Adam from Paradise. He argues that his own exit from the presence of the beloved was far more humiliating than Adam's departure from heaven. This blends cultural religious narrative with personal heartache, showing Ghalib's wit and self-irony.",
+          "explanation_urdu": "غالب اپنے محبوب کی گلی سے نکلنے کو حضرت آدم علیہ السلام کے جنت سے نکالے جانے کے واقعے سے تشبیہ دیتے ہیں۔ وہ کہتے ہیں کہ آدم کا نکلنا تو ایک طرف، ہم محبوب کے کوچے سے جس رسوائی اور بے آبروئی کے ساتھ نکلے ہیں، وہ اس سے کہیں زیادہ تکلیف دہ اور ذلت آمیز ہے۔",
+          "context": "This couplet highlights Ghalib's habit of taking sacred or traditional metaphors and applying them to profane, earthly situations, often with dry humor.",
+          "context_urdu": "یہ شعر غالب کے مخصوص شوخ اور باغیانہ اندازِ فکر کا مظہر ہے جہاں وہ روایتی مذہبی کہانیوں کو انسانی عشق کے تجربات پر منطبق کرتے ہیں۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "نکلنا",
+              "meaning_urdu": "نکلنا، باہر آنا",
+              "meaning_english": "To depart / emerge"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "خلد",
+              "meaning_urdu": "جنت، بہشت",
+              "meaning_english": "Paradise / heaven"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "بے آبرو",
+              "meaning_urdu": "ذلیل، رسوا، بغیر عزت کے",
+              "meaning_english": "Humiliated / without honor"
+            },
+            {
+              "word_order": 4,
+              "word_urdu": "کوچے",
+              "meaning_urdu": "گلی، محلہ",
+              "meaning_english": "Street / lane"
+            }
+          ]
+        },
+        {
+          "couplet_number": 3,
+          "urdu_text": "کہاں مے خانہ کا دروازہ غالب اور کہاں واعظ\nپر اتنا جانتے ہیں کل وہ جاتا تھا کہ ہم نکلے",
+          "transliteration": "Kahaan maikhane ka darwaaza Ghalib aur kahaan vaaiz\nPar itna jaante hain kal wo jaata tha ki hum nikle",
+          "translation": "How distant is the tavern door, O Ghalib, from the preacher; but all I know is, yesterday he was sneaking in just as I was coming out!",
+          "urdu_translation": "غالب، شراب خانے کے دروازے اور پرہیزگار واعظ (مذہبی مبلغ) کا کیا مقابلہ! لیکن ہم اتنا جانتے ہیں کہ کل جب ہم شراب خانے سے نکل رہے تھے تو وہ وہاں اندر جا رہے تھے۔",
+          "explanation": "This is a classic satirical couplet targeting the hypocrisy of religious orthodoxy. The preacher ('vaaiz') is supposed to preach piety and forbid alcohol. However, Ghalib spots him slipping into the tavern in secret just as Ghalib himself is departing. Rather than launching an angry tirade, Ghalib presents this hypocritical sight with charming irony and understated wit.",
+          "explanation_urdu": "یہ شعر روایتی واعظوں اور ناصحوں کی منافقت پر ایک کڑا اور طنز آمیز وار ہے۔ غالب کہتے ہیں کہ واعظ جو لوگوں کو مے نوشی سے روکتا ہے، خود چھپ کر مے خانے جاتا ہے۔ غالب اس منافقت پر سیدھا غصہ کرنے کے بجائے طنزیہ اور شگفتہ انداز اپناتے ہیں۔",
+          "context": "Irony against institutionalized hypocrisy is a major recurring theme in Ghalib's work, asserting human freedom over double standards.",
+          "context_urdu": "غالب ہمیشہ سے مکار زاہدوں اور ریا کار واعظوں کے خلاف لکھتے آئے ہیں۔ یہ شعر اسی فلسفے کا ایک مقبول اور خوبصورت نمونہ ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "مے خانہ",
+              "meaning_urdu": "شراب خانہ، مے کدہ",
+              "meaning_english": "Tavern / bar"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "واعظ",
+              "meaning_urdu": "نصیحت کرنے والا، مذہبی مبلغ",
+              "meaning_english": "Preacher / moralizer"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "پر اتنا جانتے ہیں",
+              "meaning_urdu": "لیکن صرف یہ معلوم ہے",
+              "meaning_english": "But this much is known"
+            }
+          ]
         }
       ]
     },
