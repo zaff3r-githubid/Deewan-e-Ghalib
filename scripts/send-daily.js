@@ -206,46 +206,18 @@ async function getPoemById(ghazalId) {
 async function getTodayPoem() {
   const todayStr = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
   
-  let queueRes = await db.execute({
-    sql: "SELECT * FROM daily_queue WHERE scheduled_date = ?",
-    args: [todayStr],
-  });
-  let queueEntry = queueRes.rows[0];
-  
-  if (!queueEntry) {
-    // Pick the next unscheduled ghazal
-    const nextGhazalRes = await db.execute(`
-      SELECT * FROM ghazals 
-      WHERE id NOT IN (SELECT ghazal_id FROM daily_queue) 
-      ORDER BY id ASC 
-      LIMIT 1
-    `);
-    let ghazal = nextGhazalRes.rows[0];
+  const ghazalsRes = await db.execute("SELECT id FROM ghazals ORDER BY id ASC");
+  const ghazals = ghazalsRes.rows;
+  if (ghazals.length === 0) return null;
 
-    // Cycle check
-    if (!ghazal) {
-      const randomGhazalRes = await db.execute("SELECT * FROM ghazals ORDER BY RANDOM() LIMIT 1");
-      ghazal = randomGhazalRes.rows[0];
-    }
+  const baseDate = new Date("2026-07-01T00:00:00Z");
+  const currentDate = new Date(todayStr + "T00:00:00Z");
+  const diffTime = currentDate.getTime() - baseDate.getTime();
+  const diffDays = Math.max(0, Math.floor(diffTime / (1000 * 60 * 60 * 24)));
+  const ghazalIdx = diffDays % ghazals.length;
+  const ghazalId = ghazals[ghazalIdx].id;
 
-    if (!ghazal) {
-      return null;
-    }
-
-    // Insert into queue
-    await db.execute({
-      sql: "INSERT INTO daily_queue (ghazal_id, scheduled_date) VALUES (?, ?)",
-      args: [ghazal.id, todayStr],
-    });
-
-    const refreshedQueueRes = await db.execute({
-      sql: "SELECT * FROM daily_queue WHERE scheduled_date = ?",
-      args: [todayStr],
-    });
-    queueEntry = refreshedQueueRes.rows[0];
-  }
-
-  return getPoemById(Number(queueEntry.ghazal_id));
+  return getPoemById(Number(ghazalId));
 }
 
 async function run() {
@@ -270,12 +242,6 @@ async function run() {
     for (const sub of subscribers) {
       await sendDailyPoemEmail(sub.email, sub.token, poemData);
     }
-
-    const todayStr = new Date().toISOString().split("T")[0];
-    await db.execute({
-      sql: "UPDATE daily_queue SET sent = 1 WHERE scheduled_date = ?",
-      args: [todayStr],
-    });
 
     console.log("Daily email dispatcher finished successfully!");
     process.exit(0);

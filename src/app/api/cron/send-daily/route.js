@@ -46,13 +46,6 @@ export async function GET(request) {
       results.push({ email: sub.email, success: emailRes.success, mocked: emailRes.mocked || false });
     }
 
-    // 4. Update the daily queue record for today to mark as sent
-    const todayStr = new Date().toISOString().split("T")[0];
-    await db.execute({
-      sql: "UPDATE daily_queue SET sent = 1 WHERE scheduled_date = ?",
-      args: [todayStr],
-    });
-
     return NextResponse.json({
       success: true,
       message: `Emails processed. Sent: ${successCount}, Failed: ${failCount}`,
