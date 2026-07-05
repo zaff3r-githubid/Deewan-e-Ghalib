@@ -226,48 +226,56 @@ async function seedDynamicData() {
   const { GoogleGenAI } = require("@google/genai");
   const ai = new GoogleGenAI({ apiKey });
 
-  // Dynamic Ghazals
-  const extraGhazals = [
-    "Aah ko chahiye ek umr asar hone tak",
-    "Nukta-cheen hai gham-e-dil us ko sunaye na bane",
-    "Dayam pada hua tere dar par nahi hoon main",
-    "Zulmat kade mein mere shab-e-gham ka josh hai",
-    "Phir mujhe deeda-e-tar yaad aaya",
-    "Taskeen ko hum na royein jo zauq-e-nazar mile",
-    "Koi din gar zindagani aur hai",
-    "Na tha kuch to khuda tha kuch na hota to khuda hota",
-    "Dard minnat-kash-e-dawa na hua",
-    "Sab kahan kuch lala-o-gul mein numayan ho gayeen",
-    "Kisi ko deke dil koi nawa-sanj-e-fughan kyun ho",
-    "Go haath ko jumbish nahi aankhon mein to dam hai",
-    "Muddat hui hai yaar ko mehman kiye hue",
-    "Baazi-cha-e-atfaal hai duniya mere aage",
-    "Dil hi to hai na sang-o-khisht dard se bhar na aaye kyun",
-    "Ishq par zor nahi hai ye wo aatish Ghalib",
-    "Koi umeed bar nahi aati",
-    "Naqsh faryadi hai kis ki shokhi-e-tehreer ka",
-    "Dile naadan tujhe hua kya hai",
-    "Hazaaron khwahishein aisi ke har khwahish pe dam nikle",
-    "Ye na thi hamari qismat ke wisal-e-yaar hota",
-    "Bas ke dushwar hai har kaam ka aasan hona",
-    "Ibne-Maryam hua kare koi",
-    "Har ek baat pe kehte ho tum ke tu kya hai"
-  ];
+  console.log("GEMINI_API_KEY detected! Initializing complete Deewan-e-Ghalib index...");
 
-  console.log("GEMINI_API_KEY detected! Seeding additional ghazals dynamically...");
+  let extraGhazals = [];
+  try {
+    const indexPrompt = `
+      You are an expert scholar of Mirza Ghalib's poetry. Provide a definitive list of the opening lines (transliterated in Roman English script) of all Urdu ghazals in the standard Deewan-e-Ghalib.
+      Format your response strictly as a JSON object with a single key "titles" containing a JSON array of strings, like this:
+      {
+        "titles": [
+          "Dil-e-nadaan tujhe hua kya hai",
+          "Ye na thi hamari qismat ke wisal-e-yaar hota"
+        ]
+      }
+      Return ONLY valid JSON matching this schema. Provide all available Urdu ghazals in the Deewan (aim for up to 230 unique ghazals).
+    `;
 
-  for (const title of extraGhazals) {
+    const listRes = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: indexPrompt,
+      config: {
+        responseMimeType: "application/json",
+      },
+    });
+
+    const listData = JSON.parse(listRes.text);
+    extraGhazals = listData.titles || [];
+    console.log(`Retrieved index of ${extraGhazals.length} ghazals from Gemini.`);
+  } catch (err) {
+    console.error("Failed to retrieve complete ghazal index from Gemini:", err.message);
+    return;
+  }
+
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+  for (let i = 0; i < extraGhazals.length; i++) {
+    const title = extraGhazals[i];
+    
+    // Fuzzy duplicate checking to support resume after interruption
+    const checkTitle = title.substring(0, 15);
     const existing = await db.execute({
       sql: "SELECT id FROM ghazals WHERE title LIKE ?",
-      args: [`%${title}%`],
+      args: [`%${checkTitle}%`],
     });
     
     if (existing.rows.length > 0) {
-      console.log(`Extra ghazal "${title}" is already in database. Skipping.`);
+      console.log(`[${i + 1}/${extraGhazals.length}] Ghazal resembling "${title}" already exists. Skipping.`);
       continue;
     }
 
-    console.log(`Requesting analysis from Gemini for: "${title}"...`);
+    console.log(`[${i + 1}/${extraGhazals.length}] Requesting full poem from Gemini: "${title}"...`);
     try {
       const prompt = `
         You are a scholar of Mirza Ghalib's poetry. Retrieve and analyze the ghazal starting with "${title}".
@@ -308,7 +316,13 @@ async function seedDynamicData() {
 
       const ghazalData = JSON.parse(response.text);
       await insertGhazal(ghazalData);
-      console.log(`Successfully generated and inserted: "${title}"`);
+      console.log(`Successfully seeded: "${title}"`);
+
+      // Rate limit delay to stay under Gemini free tier limit (15 RPM)
+      if (i < extraGhazals.length - 1) {
+        console.log("Waiting 5 seconds to stay under free tier rate limits...");
+        await delay(5000);
+      }
     } catch (err) {
       console.error(`Failed to fetch dynamic content for "${title}":`, err.message);
     }
