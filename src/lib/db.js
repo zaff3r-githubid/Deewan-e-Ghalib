@@ -97,10 +97,7 @@ export async function initDb() {
   `);
 }
 
-// Call initialization in background
-initDb().catch((err) => {
-  console.error("Failed to initialize database:", err);
-});
+
 
 // Helper: Get full poem detail structure by Ghazal ID
 export async function getPoemById(ghazalId) {
