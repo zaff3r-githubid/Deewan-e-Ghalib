@@ -197,7 +197,7 @@
             },
             {
               "word_order": 4,
-              "word_urdu": "ادا",
+              "word_urdu": "اندا",
               "meaning_urdu": "چال ڈھال، دلکش انداز",
               "meaning_english": "Enticing style / grace"
             }
@@ -616,6 +616,423 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Ye na thi hamari qismat ke wisal-e-yaar hota",
+      "urdu_title": "یہ نہ تھی ہماری قسمت کہ وصالِ یار ہوتا",
+      "poet": "Mirza Ghalib",
+      "language": "urdu",
+      "couplets": [
+        {
+          "couplet_number": 1,
+          "urdu_text": "یہ نہ تھی ہماری قسمت کہ وصالِ یار ہوتا\nاگر اور جیتے رہتے یہی انتظار ہوتا",
+          "transliteration": "Ye na thi hamari qismat ke wisal-e-yaar hota\nAgar aur jeete rehte yehi intezar hota",
+          "translation": "It was not in my destiny that union with the beloved would happen;\nEven if I had lived longer, it would have been the same waiting.",
+          "urdu_translation": "ہماری قسمت میں محبوب سے ملنا نہیں لکھا تھا؛ اگر ہم کچھ سال اور بھی زندہ رہتے، تب بھی ہمیں صرف انتظار ہی ملتا۔",
+          "explanation": "This opening couplet (Matla) expresses the hopelessness and eternal waiting of classical love. The poet notes that union ('wisal') was never in his stars. Life is equated with waiting, suggesting that time itself does not heal or change one's unfortunate destiny; it simply prolongs the longing.",
+          "explanation_urdu": "یہ شعر انسانی تقدیر کی نا کامی اور ہجر کے لامتناہی انتظار کا نوحہ ہے۔ غالب فرماتے ہیں کہ وصالِ محبوب ہماری قسمت میں تھا ہی نہیں۔ اگر ہم طویل عمر بھی پاتے، تب بھی ہجر کا یہ طویل وقت ہجر میں ہی کٹتا۔ یہ تقدیر کے آگے سر تسلیم خم کرنے کا ایک گہرا شاعرانہ انداز ہے۔",
+          "context": "This is one of Ghalib's most quoted couplets, reflecting the central theme of tragic romantic separation in Eastern poetry.",
+          "context_urdu": "اردو غزل میں ہجر اور انتظار کو زندگی کا مترادف سمجھا گیا ہے۔ غالب نے اس روایتی موضوع کو اپنے خاص فلسفیانہ اور مایوسانہ انداز میں پیش کیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "وصالِ یار",
+              "meaning_urdu": "محبوب سے ملنا، ملاپ",
+              "meaning_english": "Union with the beloved"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "قسمت",
+              "meaning_urdu": "نصیب، تقدیر",
+              "meaning_english": "Destiny / fate"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "انتظار",
+              "meaning_urdu": "راہ دیکھنا، آس لگانا",
+              "meaning_english": "Waiting / anticipation"
+            }
+          ]
+        },
+        {
+          "couplet_number": 2,
+          "urdu_text": "ترے وعدے پر جیے ہم تو یہ جان جھوٹ جانا\nکہ خوشی سے مر نہ جاتے اگر اعتبار ہوتا",
+          "transliteration": "Tere vaade par jiye hum to ye jaan jhooth jaana\nKe khushi se mar na jaate agar aitbaar hota",
+          "translation": "If I lived on your promise, know that I knew it to be a lie;\nFor would I not have died of joy, had I actually believed it?",
+          "urdu_translation": "اگر میں تمہارے وعدے پر زندہ رہا تو یہ سمجھ لو کہ میں اسے جھوٹ ہی جانتا تھا؛ کیونکہ اگر مجھے تمہارے وعدے پر سچ مچ یقین ہوتا تو میں خوشی کے مارے ہی مر چکا ہوتا۔",
+          "explanation": "This couplet is an exquisite display of Ghalib's wit and complex logic. He tells the beloved: you think I was fooled by your promise of meeting. No, I knew you were lying. If I had actually believed you, the sheer ecstasy of that belief would have killed me with joy long ago. The fact that I am still alive proves that I never trusted your word.",
+          "explanation_urdu": "یہ غالب کے نازک فکری اور لاجواب طنزیہ انداز کا شاہکار شعر ہے۔ وہ محبوب سے کہتے ہیں کہ تم یہ مت سمجھنا کہ میں تمہارے جھوٹے وعدے کے بہلاوے میں آگیا۔ اگر مجھے تمہارے وعدے پر پورا یقین ہوتا تو میں خوشی کی شدت سے مر چکا ہوتا۔ میرا زندہ رہنا ہی اس بات کی دلیل ہے کہ مجھے تمہاری بات پر یقین نہیں تھا۔",
+          "context": "This couplet shows the typical playful skepticism that lovers maintain towards the beloved's unreliable promises in Urdu poetry.",
+          "context_urdu": "محبوب کے وعدوں کی نا پائیداری اور عاشق کی دانشمندی کے درمیان پائے جانے والے اس خوبصورت ربط کو غالب نے طنز و مزاح کے پیراہن میں ڈھالا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "وعدے",
+              "meaning_urdu": "عہد، اقرار",
+              "meaning_english": "Promise / oath"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "اعتبار",
+              "meaning_urdu": "بھروسہ، یقین",
+              "meaning_english": "Trust / belief / faith"
+            }
+          ]
+        },
+        {
+          "couplet_number": 3,
+          "urdu_text": "کہوں کس سے میں کہ کیا ہے شبِ غم بری بلا ہے\nمجھے کیا برا تھا مرنا اگر ایک بار ہوتا",
+          "transliteration": "Kahoon kis se main ke kya hai shab-e-gham buri bala hai\nMujhe kya bura tha marna agar ek baar hota",
+          "translation": "To whom shall I say what the night of sorrow is—it is a terrible curse!\nI would not have minded dying, if only it happened just once.",
+          "urdu_translation": "میں کس سے کہوں کہ یہ جدائی کی رات (شبِ غم) کیسی مصیبت ہے! میرے لئے موت بری چیز نہیں تھی، بشرطیکہ وہ بار بار ہونے کے بجائے صرف ایک ہی بار آتی۔",
+          "explanation": "Ghalib compares the ongoing torture of the night of separation ('shab-e-gham') to a continuous, repetitive dying. He explains that dying itself is not bad, but the night of sorrow forces the lover to die a thousand times over, second by second, which is far worse than the single, final event of actual physical death.",
+          "explanation_urdu": "غالب شبِ ہجر کی طوالت اور اس کی اذیت کا گلہ کرتے ہیں۔ وہ کہتے ہیں کہ موت تو ایک بار آ کر انسان کو سکون دے دیتی ہے، مگر غم کی یہ رات عاشق کو ہر لمحہ مارتی ہے۔ یہ بار بار مرنا جسمانی موت سے کہیں زیادہ بدتر اور تکلیف دہ ہے۔",
+          "context": "The 'night of sorrow' is a central motif in classical ghazals. Ghalib elevates it here by focusing on the psychological horror of continuous mental agony.",
+          "context_urdu": "موت کی یکبارگی اور ہجر کے مسلسل عذاب کا موازنہ غالب نے نہایت فصیح اور اثر انگیز انداز میں کیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "شبِ غم",
+              "meaning_urdu": "جدائی کی رات، دکھ کی رات",
+              "meaning_english": "Night of sorrow / separation"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "بلا",
+              "meaning_urdu": "مصیبت، عذاب",
+              "meaning_english": "Cure / affliction / disaster"
+            }
+          ]
+        },
+        {
+          "couplet_number": 4,
+          "urdu_text": "کوئی میرے دل سے پوچھے ترے تیرِ نیم کش کو\nیہ خلش کہاں سے ہوتی جو جگر کے پار ہوتا",
+          "transliteration": "Koi mere dil se pooche tere teer-e-neem-kash ko\nYe khalish kahaan se hoti jo jigar ke paar hota",
+          "translation": "Ask my heart about your half-drawn arrow;\nWhere would this sweet prickling be, had it passed completely through the liver?",
+          "urdu_translation": "محبوب کے آدھے کھینچے ہوئے تیر کی لذت کوئی میرے دل سے پوچھے؛ اگر وہ تیر دل و جگر کے آر پار ہو گیا ہوتا تو تڑپ اور مٹھاس کی یہ چبھن (خلش) کہاں سے پیدا ہوتی؟",
+          "explanation": "This couplet highlights the pleasure found in the pain of love. A 'teer-e-neem-kash' is an arrow drawn only halfway, which gets stuck in the body rather than passing clean through. Ghalib notes that if the beloved's glance/arrow had pierced him completely, the agony would be over. The fact that it remains lodged in his heart creates a continuous, delicious ache ('khalish') that he values above all else.",
+          "explanation_urdu": "یہ شعر درد کی لذت اور چاشنی کی بہترین مثال ہے۔ غالب کہتے ہیں کہ محبوب کا وہ اشارہ یا تیر جو دل میں ترازو تو ہوا مگر پار نہ ہوا، اس کی تڑپ لا جواب ہے۔ اگر وہ پار ہو جاتا تو درد ختم ہو جاتا، مگر اس کا اندر ہی رہ جانا عاشق کو ایک مسلسل اور میٹھی چبھن کا احساس دلاتا ہے۔",
+          "context": "Pain as an aesthetic value is a core Sufi and romantic concept. Ghalib's use of the archery metaphor is highly praised for its technical and emotional precision.",
+          "context_urdu": "تیرِ نیم کش اور دل کی خلش کے استعارے کو غالب نے نہایت لطیف اور جمالیاتی فہم کے ساتھ پیش کیا ہے جو محبوب کے ادھورے التفات کی عکاسی کرتا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "تیرِ نیم کش",
+              "meaning_urdu": "آدھا کھینچا ہوا تیر، وہ تیر جو دل میں پھنس جائے",
+              "meaning_english": "Half-drawn arrow"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "خلش",
+              "meaning_urdu": "چبھن، تڑپ، میٹھا درد",
+              "meaning_english": "Prickling pain / sweet ache / restlessness"
+            }
+          ]
+        },
+        {
+          "couplet_number": 5,
+          "urdu_text": "یہ مسائلِ تصوف، یہ تیرا بیان غالب\nتجھے ہم ولی سمجھتے جو نہ بادہ خوار ہوتا",
+          "transliteration": "Yeh masaail-e-tasawwuf, yeh tera bayaan Ghalib\nTujhe hum wali samajhte jo na baada-khwar hota",
+          "translation": "These complex matters of mysticism, and this eloquent explanation of yours, O Ghalib!\nWe would have considered you a saint, had you not been a drinker of wine.",
+          "urdu_translation": "تصوف کے یہ گہرے مسائل اور تمہارا یہ خوبصورت اور پر اثر بیان، اے غالب! ہم تمہیں خدا کا ولی (سنت) ہی مان لیتے، اگر تم شراب پینے کے عادی نہ ہوتے۔",
+          "explanation": "In this famous self-referential concluding verse (Maqta), Ghalib wittily reflects on his own double identity. On one hand, he writes profound Sufi and philosophical poetry ('masaail-e-tasawwuf') that displays saint-like wisdom. On the other hand, he is known to be a regular drinker of wine ('baada-khwar'), which disqualifies him from traditional sainthood. He highlights the gap between his high spiritual intellect and his weak mortal habits with delightful self-mockery.",
+          "explanation_urdu": "یہ غالب کا ایک نہایت مشہور مقطع ہے جہاں وہ اپنی ذات پر طنز کرتے ہیں۔ وہ کہتے ہیں کہ تمہاری تصوف پر گفتگو اتنی لاجواب ہے کہ لوگ تمہیں اللہ کا ولی سمجھ لیتے۔ مگر تمہاری مے نوشی کی عادت نے تمہیں رسوا کر دیا، ورنہ تم تو ولی بنے بیٹھے تھے۔ یہ ان کے اندر پائے جانے والے تضاد اور شگفتگی کا خوبصورت نمونہ ہے۔",
+          "context": "Ghalib frequently wrote about wine both as a real-life habit and as a classic Sufi metaphor representing spiritual ecstasy. Here he balances both meanings with lighthearted irony.",
+          "context_urdu": "تصوف اور رندانہ مستی غالب کی شاعری کے دو اہم متضاد رخ ہیں جنہیں انہوں نے اس مقطع میں یکجا کر کے کمالِ فصاحت کا ثبوت دیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "تصوف",
+              "meaning_urdu": "صوفیانہ علوم، معرفتِ الٰہی",
+              "meaning_english": "Mysticism / Sufism"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "ولی",
+              "meaning_urdu": "خدا کا دوست، بزرگ، سنت",
+              "meaning_english": "Saint / holy man"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "بادہ خوار",
+              "meaning_urdu": "شراب پینے والا، مے نوش",
+              "meaning_english": "Wine drinker / drunkard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ibne-Maryam hua kare koi",
+      "urdu_title": "ابنِ مریم ہوا کرے کوئی",
+      "poet": "Mirza Ghalib",
+      "language": "urdu",
+      "couplets": [
+        {
+          "couplet_number": 1,
+          "urdu_text": "ابنِ مریم ہوا کرے کوئی\nمیرے درد کی دوا کرے کوئی",
+          "transliteration": "Ibne-Maryam hua kare koi\nMere dard ki dawa kare koi",
+          "translation": "Let anyone be the Son of Mary (Jesus, the miraculous healer);\nOnly if they can cure my pain will they matter to me.",
+          "urdu_translation": "چاہے کوئی حضرت عیسیٰ علیہ السلام (ابنِ مریم) ہی کیوں نہ بن جائے، میرے لئے اس کی اہمیت تب ہی ہے جب وہ میرے دل کے درد کا علاج کر سکے۔",
+          "explanation": "In this famous Matla, Ghalib challenges the utility of distant, legendary miracles. The Son of Mary (Jesus) is celebrated in both Islamic and Christian traditions for healing the sick and raising the dead. Ghalib claims that he is indifferent to such legendary saints unless there is someone who can cure his immediate, personal pain of love and existence.",
+          "explanation_urdu": "غالب کہتے ہیں کہ دنیا میں کوئی کتنے ہی معجزات دکھانے والا ہو، یا خود عیسیٰ علیہ السلام (ابنِ مریم) ہی کیوں نہ ہو، عاشق کو اس کی پرواہ نہیں ہوتی۔ عاشق کے لئے تو وہی مسیحا ہے جو اس کے اپنے دل کے درد کا علاج کرے۔ یہ زبانی اور دور دراز کے معجزوں پر ذاتی حقیقت اور ضرورت کی ترجیح ہے۔",
+          "context": "Ghalib frequently used biblical/Quranic characters like Jesus, Joseph, and Moses to contrast heroic religious archetypes with the mundane reality of the suffering lover.",
+          "context_urdu": "حضرت عیسیٰ علیہ السلام کو شاعری میں 'مسیحا' کے طور پر پیش کیا جاتا ہے۔ غالب نے اس روایت کو اپنے مخصوص حقیقت پسندانہ اور باغیانہ لہجے میں ڈھالا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "ابنِ مریم",
+              "meaning_urdu": "مریم کے بیٹے (حضرت عیسیٰ علیہ السلام، جو مردوں کو زندہ کرتے تھے)",
+              "meaning_english": "Son of Mary (Jesus)"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "دوا",
+              "meaning_urdu": "علاج، شفا بخش کام",
+              "meaning_english": "Cure / remedy"
+            }
+          ]
+        },
+        {
+          "couplet_number": 2,
+          "urdu_text": "شرع و آئیں پر مدار سہی\nایسے قاتل کا کیا کرے کوئی",
+          "transliteration": "Shara-o-aaeen par madaar sahi\nAise qaatil ka kya kare koi",
+          "translation": "Admittedly, the society runs on law and religious code;\nBut what is one to do against a killer who is too beautiful to punish?",
+          "urdu_translation": "یہ سچ ہے کہ کائنات اور عدالتیں قانون اور مذہب کے اصولوں پر چلتی ہیں، لیکن ایسے قاتل (محبوب) کا کیا کیا جائے جس کی خوبصورتی کے سامنے قانون بھی بے بس ہے؟",
+          "explanation": "The poet discusses the clash between human laws/religious codes ('shara-o-aaeen') and the lawless power of beauty. While the law mandates punishment for a killer, the 'killer' here is the beloved whose glances slay the lover. Since the murder is metaphorical and the killer is deeply adored, normal laws of justice are useless.",
+          "explanation_urdu": "غالب شکوہ کرتے ہیں کہ دنیا تو قانون اور آئین کے تحت چلتی ہے اور ہر قاتل کو سزا ملتی ہے۔ مگر جب قاتل خود محبوب ہو، جس کی ادائیں جان لیوا ہوں، تو وہاں قانون کا کیا کام؟ ایسے پیارے قاتل کے خلاف کوئی عدالت یا قانون مددگار نہیں ہو سکتا۔",
+          "context": "A classic theme where the beloved's disregard for conventions is celebrated by the poet as a higher form of reality than rigid social structures.",
+          "context_urdu": "محبوب کو 'قاتل' کہنا اور اس کے ظلم کو قانون سے بالاتر قرار دینا اردو غزل کا ایک روایتی مگر دلکش مضمون ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "شرع",
+              "meaning_urdu": "مذہبی قانون، شریعت",
+              "meaning_english": "Religious law / codes"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "آئیں",
+              "meaning_urdu": "قانون، دستور",
+              "meaning_english": "Law / constitution"
+            },
+            {
+              "word_order": 3,
+              "word_urdu": "مدار",
+              "meaning_urdu": "انحصار ہونا، بنیاد ہونا",
+              "meaning_english": "Basis / dependence"
+            }
+          ]
+        },
+        {
+          "couplet_number": 3,
+          "urdu_text": "بک رہا ہوں جنوں میں کیا کیا کچھ\nکچھ نہ سمجھے خدا کرے کوئی",
+          "transliteration": "Bak raha hoon junoon mein kya kya kuchh\nKuch na samjhe khuda kare koi",
+          "translation": "What nonsense I am babbling in this state of madness!\nMay God ensure that no one understands what I am saying.",
+          "urdu_translation": "میں پاگل پن اور دیوانگی کی حالت میں نہ جانے کیا کیا بول رہا ہوں؛ اللہ کرے کہ میری ان باتوں کو کوئی سمجھ نہ پائے۔",
+          "explanation": "The poet is aware of his own state of emotional overload or madness ('junoon'). He realizes that he is uttering potentially blasphemous, dangerous, or highly sensitive secrets in his delirium. He prays that the audience remains blind and deaf to his words, saving him from social ruin.",
+          "explanation_urdu": "یہ شعر انسانی ذہنی انتشار اور شدید محبت میں دیوانگی کی کیفیت کو بیان کرتا ہے۔ غالب کہتے ہیں کہ جنوں کی حالت میں زبان پر قابو نہیں رہتا اور انسان بہت سی الٹی سیدھی باتیں کہہ جاتا ہے۔ وہ دعا کرتے ہیں کہ سننے والے ان کے دل کی ان باتوں کی گہرائی کو نہ سمجھ پائیں تاکہ وہ فتووں یا رسوائی سے بچ سکیں۔",
+          "context": "Ghalib's poetry often hovered on the edge of what was socially and religiously acceptable. This couplet reflects his awareness of his own rebellious ideas.",
+          "context_urdu": "دیوانگی میں کہی گئی باتوں کو خدا کے سپرد کرنا اور تفہیم سے بچنے کی التجا کرنا غالب کے منفرد شعری مزاج کو ظاہر کرتا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "جنوں",
+              "meaning_urdu": "دیوانگی، جنون، محبت کا پاگل پن",
+              "meaning_english": "Madness / passion / frenzy"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "بک رہا ہوں",
+              "meaning_urdu": "بغیر سوچے سمجھے بول رہا ہوں",
+              "meaning_english": "Babbling / talking nonsense"
+            }
+          ]
+        },
+        {
+          "couplet_number": 4,
+          "urdu_text": "نہ سنو گر برا کہے کوئی\nنہ کہو گر برا کرے کوئی",
+          "transliteration": "Na suno gar bura kahe koi\nNa kaho gar bura kare koi",
+          "translation": "Do not listen if someone speaks ill of another;\nDo not repeat it if someone does something wrong.",
+          "urdu_translation": "اگر کوئی کسی کی برائی کر رہا ہو تو مت سنو، اور اگر کوئی غلط کام کرے تو اس کی تشہیر مت کرو۔",
+          "explanation": "This couplet presents universal moral advice. Ghalib advises the reader to practice absolute tolerance and restraint: do not participate in gossip by listening to bad words, and do not escalate conflicts by broadcasting other people's faults. It is a plea for peace, discretion, and overlooking human weaknesses.",
+          "explanation_urdu": "یہ شعر اخلاقیات اور رواداری کا ایک کائناتی درس ہے۔ غالب فرماتے ہیں کہ اگر کوئی تمہارے سامنے کسی کی برائی کرے تو کان مت دھرو، اور اگر کوئی غلطی یا برائی کرے تو اس کی عیب جوئی کرنے کے بجائے درگزر سے کام لو۔ یہ معاشرتی امن اور پرسکون زندگی کی کلید ہے۔",
+          "context": "This is one of Ghalib's most simple and instructional couplets, heavily influenced by traditional philosophical values of harmony.",
+          "context_urdu": "غالب کے ہاں جہاں فلسفیانہ اور پیچیدہ خیالات ملتے ہیں، وہیں ایسی سادہ اور گراں قدر اخلاقی نصیحتیں بھی موجود ہیں جو دل پر اثر کرتی ہیں۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "برا",
+              "meaning_urdu": "خراب بات، غیبت",
+              "meaning_english": "Bad / evil / slander"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "نہ سنو",
+              "meaning_urdu": "توجہ مت دو",
+              "meaning_english": "Do not listen"
+            }
+          ]
+        },
+        {
+          "couplet_number": 5,
+          "urdu_text": "روک لو گر غلط چلے کوئی\nبخش دو گر خطا کرے کوئی",
+          "transliteration": "Rok lo gar ghalat chale koi\nBakhsh do gar khata kare koi",
+          "translation": "Stop them if someone takes a wrong path;\nForgive them if someone makes a mistake.",
+          "urdu_translation": "اگر کوئی سیدھے راستے سے بھٹک کر غلط راستے پر چل رہا ہو تو اسے پیار سے روک لو، اور اگر کسی سے کوئی غلطی ہو جائے تو اسے معاف کر دو۔",
+          "explanation": "Continuing the moral instructions of the previous couplet, Ghalib emphasizes gentle guidance and forgiveness. Instead of condemning or punishing a wrongdoer, one should try to guide them back to the right path ('rok lo') and practice compassion ('bakhsh do') when mistakes are made, recognizing that to err is human.",
+          "explanation_urdu": "پچھلے شعر کی کڑی میں غالب کہتے ہیں کہ اگر کوئی غلط راستے پر جا رہا ہو تو دشمنی کے بجائے اسے محبت سے سمجھا کر روکنا چاہئے، اور اگر کسی سے نادانی میں کوئی گناہ یا خطا سرزد ہو جائے تو اسے معاف کر دینا چاہئے۔ یہ انسانی ہمدردی کا پیغام ہے۔",
+          "context": "Ghalib was known to be very tolerant in his personal life, showing immense kindness to friends and strangers alike, regardless of their status.",
+          "context_urdu": "غالب کی اپنی فراخ دلی اور انسان دوستی اس شعر کے ایک ایک لفظ سے عیاں ہے، جہاں وہ سختی کے بجائے نرمی کی ترغیب دیتے ہیں۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "خطا",
+              "meaning_urdu": "غلطی، بھول چوک",
+              "meaning_english": "Mistake / error"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "بخش دو",
+              "meaning_urdu": "معاف کر دو، درگزر کرو",
+              "meaning_english": "Forgive / pardon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Har ek baat pe kehte ho tum ke tu kya hai",
+      "urdu_title": "ہر ایک بات پہ کہتے ہو تم کہ تو کیا ہے",
+      "poet": "Mirza Ghalib",
+      "language": "urdu",
+      "couplets": [
+        {
+          "couplet_number": 1,
+          "urdu_text": "ہر ایک بات پہ کہتے ہو تم کہ تو کیا ہے\nتمہیں کہو کہ یہ اندازِ گفتگو کیا ہے",
+          "transliteration": "Har ek baat pe kehte ho tum ke tu kya hai\nTumhein kaho ke yeh andaaz-e-guftago kya hai",
+          "translation": "At every word you say to me, 'What are you?'\nYou tell me, what style of conversation is this?",
+          "urdu_translation": "میں جب بھی کوئی بات کرتا ہوں تو تم آگے سے کہتے ہو کہ 'تیری اوقات ہی کیا ہے'؛ تم خود ہی بتاؤ کہ بات چیت کرنے کا یہ کون سا طریقہ ہے؟",
+          "explanation": "The poet complains about the beloved's dismissive, prideful, and insulting attitude. The beloved questions the lover's very identity and worth ('tu kya hai') at every turn. Ghalib highlights this condescending tone, asking the beloved to self-reflect on whether this is a civilized way to treat someone who cares for them.",
+          "explanation_urdu": "یہ شعر محبوب کے غرور اور عاشق کی تذلیل کو ظاہر کرتا ہے۔ غالب کہتے ہیں کہ محبوب ان کی ہر بات کا جواب طنز اور حقارت سے دیتا ہے اور ان کی ہستی کو چیلنج کرتا ہے۔ وہ محبوب سے مخاطب ہو کر شکوہ کرتے ہیں کہ کیا محبت میں گفتگو کا یہی انداز ہونا چاہئے؟",
+          "context": "This couplet is highly popular for its depiction of domestic or personal arguments, capturing a universal sense of hurt pride in relationships.",
+          "context_urdu": "گفتگو کی شائستگی اور محبوب کی تلخ نوائی کے تضاد کو غالب نے نہایت خوبصورت اور بول چال کے لہجے میں بیان کیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "اندازِ گفتگو",
+              "meaning_urdu": "بات چیت کا طریقہ، لہجہ",
+              "meaning_english": "Style of conversation"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "تو کیا ہے",
+              "meaning_urdu": "تیری اوقات کیا ہے، تیری حیثیت کیا ہے",
+              "meaning_english": "What are you / what is your worth"
+            }
+          ]
+        },
+        {
+          "couplet_number": 2,
+          "urdu_text": "چپک رہا ہے بدن پر لہو سے پیراہن\nہماری جیب کو اب حاجتِ رفو کیا ہے",
+          "transliteration": "Chipak raha hai badan par lahoo se pairahan\nHamari jeb ko ab haajat-e-rafu kya hai",
+          "translation": "My shirt is sticking to my body because of my blood;\nWhat need is there now to stitch or mend my collar?",
+          "urdu_translation": "زخموں کے بہتے خون کی وجہ سے میرا کرتا (پیراہن) میرے جسم سے چپک گیا ہے؛ اب میرے چاک گریبان (جیب) کو رفو کروانے کی کیا ضرورت ہے؟",
+          "explanation": "In classical poetry, tearing one's collar or pocket ('jeb' or 'gareeban') is a sign of madness in love. Ghalib notes that since his shirt is already soaked in blood and sticking to his skin, the torn pockets are glued shut by his own wounds anyway. Therefore, hiring a tailor to mend the shirt is redundant. It is a vivid, tragic description of madness and physical decay.",
+          "explanation_urdu": "جنونِ عشق میں گریبان چاک کرنا ایک روایتی عمل ہے۔ غالب کہتے ہیں کہ اب چاک گریبان کو رفو کرنے کی کیا ضرورت ہے؟ زخموں سے بہتا ہوا خون اتنا زیادہ ہے کہ اس نے کپڑوں کو جسم سے چپکا دیا ہے، یعنی کپڑے اب خود بخود بند ہو چکے ہیں۔ یہ دکھ کی انتہا اور مادی بے نیازی کو ظاہر کرتا ہے۔",
+          "context": "Ghalib frequently used descriptions of physical wounds as symbols of inner emotional trauma and lack of social integration.",
+          "context_urdu": "خون کی سرخی اور رفو کی لاحاصلی کے درمیان پائے جانے والے گہرے تعلق کو غالب نے نہایت اثر انگیز تصویر کشی کے ساتھ پیش کیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "پیراہن",
+              "meaning_urdu": "کرتا، لباس",
+              "meaning_english": "Shirt / attire"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "حاجتِ رفو",
+              "meaning_urdu": "سلائی کی ضرورت، مرمت کی حاجت",
+              "meaning_english": "Need for stitching/mending"
+            }
+          ]
+        },
+        {
+          "couplet_number": 3,
+          "urdu_text": "رگوں میں دوڑتے پھرنے کے ہم نہیں قائل\nجب آنکھ ہی سے نہ ٹپکا تو پھر لہو کیا ہے",
+          "transliteration": "Ragon mein daudte phirne ke hum nahi qaayel\nJab aankh hi se na tapka to phir lahoo kya hai",
+          "translation": "I am not convinced by blood that merely flows inside the veins;\nIf it does not drip from the eyes as tears, then what use is it as blood?",
+          "urdu_translation": "ہم اس خون کو خون نہیں مانتے جو صرف جسم کی رگوں میں دوڑتا رہے؛ سچا خون تو وہ ہے جو دل کے صدمے سے آنسو بن کر آنکھوں سے ٹپک پڑے۔",
+          "explanation": "This is a highly celebrated couplet about emotional depth. Ghalib dismisses the purely biological function of blood flowing in the veins. For him, blood only proves its existence and value when it is transformed by the fire of emotion and overflows from the eyes as bloody tears. It is a claim that outward expression of deep feeling is the only true proof of being alive.",
+          "explanation_urdu": "غالب مادی اور حیاتیاتی زندگی کے قائل نہیں ہیں۔ وہ کہتے ہیں کہ رگوں میں خون کا دوڑنا تو ایک عام بات ہے، لیکن سچا خون وہ ہے جو غم کی شدت سے آنکھ سے آنسو بن کر بہہ جائے۔ اگر جذبات کا اظہار ہی نہ ہو، تو رگوں کا خون بے معنی ہے۔ یہ گہرے باطنی احساس کا نام ہے۔",
+          "context": "The concept of 'bloody tears' ('ashk-e-khoon') is a common hyperbole in Urdu poetry, indicating the maximum level of grief and dedication.",
+          "context_urdu": "رگوں کی گردش اور آنکھ سے ٹپکنے والے قطرے کے درمیان موازنہ کر کے غالب نے جذبات کی سچائی کو زندگی کا اصل معیار قرار دیا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "قائل",
+              "meaning_urdu": "ماننے والا، قائل ہونے والا",
+              "meaning_english": "Believer / convinced"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "لہو",
+              "meaning_urdu": "خون",
+              "meaning_english": "Blood"
+            }
+          ]
+        },
+        {
+          "couplet_number": 4,
+          "urdu_text": "رہی نہ طاقتِ گفتار اور اگر ہو بھی\nتو کس امید پہ کہیے کہ آرزو کیا ہے",
+          "transliteration": "Rahi na taaqat-e-guftaar aur agar ho bhi\nTo kis umeed pe kahiye ke aarzoo kya hai",
+          "translation": "No strength of speech remains, and even if it did;\nOn what hope should I speak and declare what my desire is?",
+          "urdu_translation": "مجھ میں اب بولنے کی ہمت (طاقتِ گفتار) نہیں رہی، اور اگر بالفرض بولنے کی طاقت ہو بھی، تو میں کس امید پر بتاؤں کہ میری تمنا کیا ہے؟ کیونکہ مجھے معلوم ہے کہ میری بات سنی ہی نہیں جائے گی۔",
+          "explanation": "The poet describes the exhaustion of long-term suffering. He has lost the energy to speak ('taaqat-e-guftaar'). Furthermore, he notes that even if he recovered his voice, it would be pointless because there is no hope ('umeed') that his desires ('aarzoo') would ever be fulfilled or listened to by the beloved. Silence becomes the only logical choice.",
+          "explanation_urdu": "یہ شعر نا امیدی اور یاس کی انتہا کو بیان کرتا ہے۔ غالب کہتے ہیں کہ صدمات کی وجہ سے اب مجھ میں بولنے کی سکت نہیں رہی۔ اور اگر میں بول بھی سکوں، تو کس امید پر محبوب کے سامنے اپنی خواہش کا اظہار کروں؟ جب کوئی امید ہی باقی نہ ہو، تو خاموشی ہی مقدر بن جاتی ہے۔",
+          "context": "The loss of hope ('yas') is a frequent motif in Ghalib's work, which was marked by personal losses, including the deaths of all seven of his children in infancy.",
+          "context_urdu": "بولنے کی سکت کا ختم ہونا اور امیدوں کا ٹوٹ جانا غالب کی ذاتی زندگی کے سانحات سے گہرا ربط رکھتا ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "طاقتِ گفتار",
+              "meaning_urdu": "بولنے کی طاقت، قوتِ سخن",
+              "meaning_english": "Strength of speech"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "آرزو",
+              "meaning_urdu": "خواہش، تمنا",
+              "meaning_english": "Desire / wish"
+            }
+          ]
+        },
+        {
+          "couplet_number": 5,
+          "urdu_text": "ہوا ہے شہ کا مصاحب پھرے ہے اتراتا\nورنہ شہر میں غالب کی آبرو کیا ہے",
+          "transliteration": "Hua hai shah ka musahib phire hai itrata\nVarna shehar mein Ghalib ki aabroo kya hai",
+          "translation": "Now that he has become a companion to the King, Ghalib walks around proudly;\nOtherwise, what real honor or standing does he have in this city?",
+          "urdu_translation": "غالب اب بادشاہ کا مصاحب (درباری ساتھی) بن گیا ہے، اس لئے فخر سے اتراتا پھرتا ہے؛ ورنہ سچ تو یہ ہے کہ اس شہر میں غالب کی کوئی اوقات اور عزت نہیں ہے۔",
+          "explanation": "In this self-deprecating Maqta, Ghalib targets his own vanity. He was appointed as the royal poet and chronicler to Bahaduh Shah Zafar (the last Mughal Emperor). He jokes that his pride and swagger are entirely due to this royal patronage, mocking himself by declaring that without this connection, he is just a worthless nobody with no standing in Delhi.",
+          "explanation_urdu": "غالب اپنے آخری شعر میں اپنی ہی ذات پر ہنستے ہیں۔ وہ کہتے ہیں کہ غالب کو بادشاہ کے دربار تک رسائی مل گئی ہے، اسی لئے وہ نخرے دکھاتا پھرتا ہے۔ ورنہ اس مفلس شاعر کی اس شہر میں کیا حیثیت ہے؟ یہ ان کی عاجزی اور درباری سیاست پر ایک لطیف وار ہے۔",
+          "context": "This reflects Ghalib's complex relationship with the royal court. While he valued the pension and status, he was highly cynical about the court's sycophancy.",
+          "context_urdu": "دربارِ شاہی سے وابستگی اور اپنی اوقات پر غالب کا یہ طنز ان کے منفرد حسِ مزاح اور خود پسندی کے خلاف ایک بہترین تبصرہ ہے۔",
+          "words": [
+            {
+              "word_order": 1,
+              "word_urdu": "مصاحب",
+              "meaning_urdu": "درباری ساتھی، دوست",
+              "meaning_english": "Companion / courtier"
+            },
+            {
+              "word_order": 2,
+              "word_urdu": "آبرو",
+              "meaning_urdu": "عزت، وقار",
+              "meaning_english": "Honor / standing / status"
+            }
+          ]
+        }
+      ]
     }
   ],
   "letters": [
@@ -624,7 +1041,7 @@
       "recipient": "Har Gopal Taftah",
       "date_written": "1858",
       "urdu_text": "میاں تفتہ! تمہارا خط پہنچا۔ تم نے آموں کی تعریف لکھی اور مجھ سے فرمائش کی کہ کچھ بھیجوں۔ بھلا میاں، میں تو خود آموں کا دیوانہ ہوں۔\n\nمیری تو یہ حالت ہے کہ آم میٹھے ہوں اور بہت سے ہوں. لوگ کہتے ہیں کہ آم میں کچھ خوبیاں ہونی چاہئیں، میں کہتا ہوں کہ دو خوبیاں ہونی چاہئیں: ایک تو بہت میٹھے ہوں اور دوسرے بہت سارے ہوں۔\n\nاب خط لکھنے کا ڈھنگ دیکھو۔ لوگ القاب و آداب میں آدھا صفحہ ضائع کر دیتے ہیں اور بات اصل لکھتے ہی نہیں۔ میں نے تو یہ طریقہ اختیار کیا ہے کہ القاب کو چھوڑا اور سیدھی بات شروع کی، گویا ہم اور تم سامنے بیٹھے گفتگو کر رہے ہیں۔",
-      "transliteration": "Mian Taftah! Tumhara khat pahuncha. Tum ne aamon ki taareef likhi aur mujh se farmaish ki ke kuch bhejon. Bhala mian, main to khud aamon ka deewanah hoon.\n\nMeri to yeh haalat hai ke aam meethe hon aur bohat se hon. Log kehte hain ke aam mein kuch khoobiyan honi chahiye, main kehta hoon ke do khoobiyan honi chahiye: ek to bohat meethe hon aur doosre bohat saare hon.\n\nAb khat likhne ka dhang dekho. Log alqaab-o-aadaab mein aadha safha zaya kar dete hain aur baat asal likhte hi nahi. Main ne to yeh tareeqah ikhtiyar kiya hai ke alqaab ko chhoda aur seedhi baat shuru ki, goya hum aur tum saamne baithe guftago kar rahe hain.",
+      "transliteration": "Mian Taftah! Tumhara khat pahuncha. Tum ne aamon ki taareef likhi aur mujh se farmaish ki ke kuch bhejon. Bhala mian, main to khud aamon ka deewanah hoon.\n\nMeri to yeh haalat hai ke aam meethe hon aur bohat se hon. Log kehte hain ke aam mein kuch khoobiyan honi chahiye, main kehta hoon ke do khoobiyan honi chahiye: ek to bohat meethe hon aur doosre bohat saare hon.\n\nAb khat likhne ka dhang dekho. Log alqaab-o-aadaab mein aadha safha zaya kar dete hain aur baat asal لکھتے ہی نہیں۔ میں نے تو یہ طریقہ اختیار کیا ہے کہ القاب کو چھوڑا اور سیدھی بات شروع کی، گویا ہم اور تم سامنے بیٹھے گفتگو کر رہے ہیں۔",
       "translation": "My dear Taftah! Your letter arrived. You praised mangoes and requested that I send you some. Well, my friend, I myself am absolutely crazy about mangoes!\n\nMy position is simple: mangoes must be sweet, and they must be plentiful. People say there should be various qualities in a mango. I say it needs only two qualities: first, it should be very sweet, and second, there should be a vast number of them!\n\nAlso, observe this style of writing letters. People waste half a page in formal titles and greetings, and never get to the actual point. I have adopted a method where I skip all formal titles and start speaking directly, as if you and I are sitting face to face, having a chat.",
       "explanation": "This letter highlights Ghalib's two most famous personal characteristics: his legendary love for mangoes and his revolutionary approach to Urdu prose.\n\nHistorically, Urdu letter writing was bogged down by complex, rhythmic Arabic and Persian honorifics. Ghalib shattered this convention by initiating 'muraasla ko mukaalma bana diya' (turning correspondence into a conversation). He wrote exactly how he spoke—with wit, informal words, and direct address.\n\nHis dialogue on mangoes is a classic piece of Urdu humor. It showcases Ghalib's ability to extract joy and playfulness from the simple things in life, despite his severe financial struggles and the turbulent political era he lived through."
     },
@@ -642,7 +1059,7 @@
       "recipient": "Har Gopal Taftah",
       "date_written": "1861",
       "urdu_text": "میاں تفتہ! تمہارے اشعار پہنچے۔ میاں، شعر کہنا تو آسان ہے لیکن اصلاح دینا جوئے شیر لانے کے مترادف ہے۔\n\nتم لکھتے ہو کہ میں جلدی اصلاح کر کے بھیجوں۔ بھائی، بڑھاپے نے عاجز کر دیا ہے، بینائی کمزور ہے اور ہاتھ کانپتے ہیں۔ اوپر سے یہ افلاس کا رونا۔ پنشن بند ہے اور ادھار پر زندگی چل رہی ہے۔\n\nمگر تمہارا کلام دیکھ کر دل خوش ہوتا ہے۔ تمہارے اشعار میں وہ درد اور صفائی ہے جو اب دوسروں میں نظر نہیں آتی۔ میں نے چند جگہوں پر اصلاح کر دی ہے، اسے دیکھ لینا اور یاد رکھنا کہ شعر میں سادگی ہی اس کا حسن ہے۔",
-      "transliteration": "Mian Taftah! Tumhare ashaar pahunche. Mian, sh'er kehna to aasan hai lekin islaah dena jooy-e-sheer laane ke mutaraadif hai.\n\nTum likhte ho ke main jaldi islaah kar ke bhejon. Bhai, budhaape ne aajiz kar diya hai, beenai kamzor hai aur haath kaanpte hain. Oopar se yeh aflaas ka rona. Pension band hai aur udhaar par zindagi chal rahi hai.\n\nMagar tumhara kalaam dekh kar dil khush hota hai. Tumhare ashaar mein woh dard aur safaai hai jo اب دوسروں میں نظر نہیں آتی۔ میں نے چند جگہوں پر اصلاح کر دی ہے، اسے دیکھ لینا اور یاد رکھنا کہ شعر میں سادگی ہی اس کا حسن ہے۔",
+      "transliteration": "Mian Taftah! Tumhare ashaar pahunche. Mian, sh'er kehna to aasan hai lekin islaah dena jooy-e-sheer laane ke mutaraadif hai.\n\nTum likhte ho ke main jaldi islaah kar ke bhejon. Bhai, budhaape ne aajiz kar diya hai, beenai kamzor hai aur haath kaanpte hain. Oopar se yeh aflaas ka rona. Pension band hai aur udhaar par zindagi chal rahi hai.\n\nMagar tumhara kalaam dekh kar dil khush hota hai. Tumhare ashaar mein woh dard اور صفائی ہے جو اب دوسروں میں نظر نہیں آتی۔ میں نے چند جگہوں پر اصلاح کر دی ہے، اسے دیکھ لینا اور یاد رکھنا کہ شعر میں سادگی ہی اس کا حسن ہے۔",
       "translation": "My dear Taftah! Your verses reached me. My friend, composing poetry is easy, but correcting it is like bringing forth a river of milk (an impossible task).\n\nYou write asking me to correct and return them quickly. Brother, old age has incapacitated me—my eyesight is failing and my hands shake. On top of that, there is this constant lament of poverty. My pension is suspended and life is running entirely on borrowed money.\n\nYet, looking at your poetry makes my heart happy. Your verses contain a pain and clarity that is rarely seen in others these days. I have corrected it in a few places; examine it and always remember that simplicity is the true beauty of a verse.",
       "explanation": "This letter reveals Ghalib's role as a literary mentor ('Ustad') to younger poets. In classical Urdu culture, a disciple ('Shagird') would send their poetry to an established master for correction ('Islaah'). Ghalib took this duty seriously, mentoring many disciples, especially Har Gopal Taftah, a Hindu poet whom Ghalib loved like a son.\n\nDespite complaining about his physical ailments—failing eyesight, shaking hands—and his severe financial struggles (pension suspension by the British), Ghalib still dedicates his time to literature.\n\nHis advice 'sh'er mein saadgi hi us ka husn hai' (simplicity is the beauty of poetry) is a vital insight into Ghalib's poetic theory, highlighting that the best poetry communicates complex truths in plain language."
     },
@@ -660,7 +1077,7 @@
       "recipient": "Har Gopal Taftah",
       "date_written": "1859",
       "urdu_text": "میاں تفتہ! تمہارا خط اور دیوان کے چھپنے کی خوشخبرری ملی۔ میاں، میرا دیوان چھپ رہا ہے، یہ سن کر خوشی تو ہوئی، مگر ڈر بھی لگتا ہے کہ کہیں کاپی نویسوں نے غلطیاں نہ کر دی ہوں۔\n\nآج کل کے چھاپہ خانوں کا کچھ بھروسہ نہیں۔ کوئی لفظ غلط لکھ دیتے ہیں تو پورا مصرع بے معنی ہو جاتا ہے۔ میری التماس ہے کہ تم خود ایک بار پورے مسودے کو بغور دیکھ لو۔\n\nاور ہاں، کتاب کا کاغذ اچھا ہونا چاہئے۔ اگر کاغذ خراب ہوا تو پڑھنے والے کا ذوق خراب ہو جاتا ہے۔ مجھے امید ہے کہ یہ دیوان جلد ہی لوگوں کے ہاتھوں میں ہوگا اور میری محنت تھیکانے لگے گی۔",
-      "transliteration": "Mian Taftah! Tumhara khat aur deewan ke chhapne ki khushkhabari mili. Mian, mera deewan chhap raha hai, yeh sun kar khushi to hui, mager dar bhi lagta hai ke kahee copy-naveeson ne ghaltiyan na kar di hon.\n\nAaj kal ke chhaapa-khaano ka kuch bharosa nahi. Koi lafz ghalt likh dete hain to poora misra be-maani ho jaata hai. Meri iltimaas hai ke tum khud ek baar poore maswade ko baghour dekh lo.\n\nAur haan, kitaab ka kaaghaz accha hona chahiye. Agar kaaghaz kharaab hua to parhne wale ka zauq kharaab ho jaata hai. Mujhe umeed hai ke yeh deewan jald hi logon ke haathon mein hoga aur میری محنت تھیکانے لگے گی۔\n\n",
+      "transliteration": "Mian Taftah! Tumhara khat aur deewan ke chhapne ki khushkhabari mili. Mian, mera deewan chhap raha hai, yeh sun kar khushi to hui, mager dar bhi lagta hai ke kahee copy-naveeson ne ghaltiyan na kar di hon.\n\nAaj kal ke chhaapa-khaano ka kuch bharosa nahi. Koi lafz ghalt likh dete hain to poora misra be-maani ho jaata hai. Meri iltimaas hai ke tum khud ek baar poore maswade ko baghour dekh lo.\n\nAur haan, kitaab ka kaaghaz accha hona chahiye. Agar kaaghaz kharaab hua to parhne wale ka zauq kharaab ho jaata hai. Mujhe umeed hai ke yeh deewan jald hi logon ke haathon mein hoga اور میری محنت تھیکانے لگے گی۔\n\n",
       "translation": "My dear Taftah! I received your letter and the good news about the publication of my Diwan. Friend, hearing that my Diwan is being printed makes me happy, but I am also terrified that the copyists might have introduced errors.\n\nThese days, printing presses cannot be trusted. If they write even one word incorrectly, the entire line loses its meaning. I request that you personally review the entire manuscript with great care.\n\nAlso, the paper of the book must be of good quality. If the paper is poor, it ruins the reader's aesthetic pleasure. I hope this Diwan will soon be in the hands of readers, and my lifelong labor will bear fruit.",
       "explanation": "This letter details Ghalib's anxiety and meticulous attention to the publication of his Urdu Diwan (poetry collection). During the 19th century, printing technology was in its early stages in India, and lithographic printing heavily relied on scribes (copyists or 'katibs') to write the text onto plates. Scribes frequently made copying errors, which Ghalib feared would distort his poetic intentions.\n\nAddressing Har Gopal Taftah, who was overseeing the printing process, Ghalib stresses the importance of proofreading. He notes that a single typo can ruin a 'misra' (line of poetry).\n\nHis emphasis on 'kaaghaz' (paper quality) highlights Ghalib's deep aesthetic sense. For Ghalib, bookmaking was an art form, and the physical feel and look of the book were essential to the overall literary experience."
     }

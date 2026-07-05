@@ -228,9 +228,30 @@ async function seedDynamicData() {
 
   // Dynamic Ghazals
   const extraGhazals = [
-    "Ibne-Maryam hua kare koi",
+    "Aah ko chahiye ek umr asar hone tak",
+    "Nukta-cheen hai gham-e-dil us ko sunaye na bane",
+    "Dayam pada hua tere dar par nahi hoon main",
+    "Zulmat kade mein mere shab-e-gham ka josh hai",
+    "Phir mujhe deeda-e-tar yaad aaya",
+    "Taskeen ko hum na royein jo zauq-e-nazar mile",
+    "Koi din gar zindagani aur hai",
+    "Na tha kuch to khuda tha kuch na hota to khuda hota",
+    "Dard minnat-kash-e-dawa na hua",
+    "Sab kahan kuch lala-o-gul mein numayan ho gayeen",
+    "Kisi ko deke dil koi nawa-sanj-e-fughan kyun ho",
+    "Go haath ko jumbish nahi aankhon mein to dam hai",
+    "Muddat hui hai yaar ko mehman kiye hue",
+    "Baazi-cha-e-atfaal hai duniya mere aage",
+    "Dil hi to hai na sang-o-khisht dard se bhar na aaye kyun",
+    "Ishq par zor nahi hai ye wo aatish Ghalib",
+    "Koi umeed bar nahi aati",
+    "Naqsh faryadi hai kis ki shokhi-e-tehreer ka",
+    "Dile naadan tujhe hua kya hai",
+    "Hazaaron khwahishein aisi ke har khwahish pe dam nikle",
     "Ye na thi hamari qismat ke wisal-e-yaar hota",
     "Bas ke dushwar hai har kaam ka aasan hona",
+    "Ibne-Maryam hua kare koi",
+    "Har ek baat pe kehte ho tum ke tu kya hai"
   ];
 
   console.log("GEMINI_API_KEY detected! Seeding additional ghazals dynamically...");
@@ -274,7 +295,7 @@ async function seedDynamicData() {
             }
           ]
         }
-        Return ONLY valid JSON matching this schema. Include 3-4 famous couplets. Extract 4-6 key words per couplet.
+        Return ONLY valid JSON matching this schema. Include the complete ghazal (with all of its famous couplets, typically 5 to 11 couplets). Extract 4-6 key words per couplet.
       `;
 
       const response = await ai.models.generateContent({
