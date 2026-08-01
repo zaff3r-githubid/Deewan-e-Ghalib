@@ -104,8 +104,76 @@ async function insertGhazal(ghazalData) {
   });
   
   if (existing.rows.length > 0) {
-    console.log(`Ghazal "${ghazalData.title}" already exists. Skipping.`);
-    return Number(existing.rows[0].id);
+    const ghazalId = Number(existing.rows[0].id);
+    
+    // Count the couplets for this ghazal in the database
+    const countRes = await db.execute({
+      sql: "SELECT COUNT(*) as cnt FROM couplets WHERE ghazal_id = ?",
+      args: [ghazalId],
+    });
+    
+    const dbCount = Number(countRes.rows[0].cnt);
+    
+    if (dbCount < ghazalData.couplets.length) {
+      console.log(`Ghazal "${ghazalData.title}" exists but is truncated (DB has ${dbCount}, seed file has ${ghazalData.couplets.length}). Re-seeding couplets...`);
+      
+      // Delete existing couplets and word meanings manually first to be safe
+      await db.execute({
+        sql: "DELETE FROM word_meanings WHERE couplet_id IN (SELECT id FROM couplets WHERE ghazal_id = ?)",
+        args: [ghazalId],
+      });
+      
+      await db.execute({
+        sql: "DELETE FROM couplets WHERE ghazal_id = ?",
+        args: [ghazalId],
+      });
+      
+      // Re-insert the new couplets
+      for (const couplet of ghazalData.couplets) {
+        const coupletResult = await db.execute({
+          sql: `
+            INSERT INTO couplets (ghazal_id, couplet_number, urdu_text, transliteration, translation, urdu_translation, explanation, explanation_urdu, context, context_urdu)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+          `,
+          args: [
+            ghazalId,
+            couplet.couplet_number,
+            couplet.urdu_text,
+            couplet.transliteration,
+            couplet.translation,
+            couplet.urdu_translation || null,
+            couplet.explanation,
+            couplet.explanation_urdu || null,
+            couplet.context,
+            couplet.context_urdu || null,
+          ],
+        });
+
+        const coupletId = Number(coupletResult.lastInsertRowid);
+
+        if (couplet.words && Array.isArray(couplet.words)) {
+          for (const word of couplet.words) {
+            await db.execute({
+              sql: `
+                INSERT INTO word_meanings (couplet_id, word_order, word_urdu, meaning_urdu, meaning_english)
+                VALUES (?, ?, ?, ?, ?)
+              `,
+              args: [
+                coupletId,
+                word.word_order,
+                word.word_urdu,
+                word.meaning_urdu,
+                word.meaning_english,
+              ],
+            });
+          }
+        }
+      }
+      console.log(`Successfully updated couplets for Ghazal: "${ghazalData.title}"`);
+    } else {
+      console.log(`Ghazal "${ghazalData.title}" already exists with full couplets. Skipping.`);
+    }
+    return ghazalId;
   }
 
   const result = await db.execute({
@@ -383,7 +451,7 @@ async function seedDynamicData() {
 
 async function scheduleDailyQueue() {
   console.log("Scheduling daily queue...");
-  
+
   const ghazalsRes = await db.execute("SELECT id FROM ghazals ORDER BY id ASC");
   const ghazals = ghazalsRes.rows;
   if (ghazals.length === 0) {
@@ -391,28 +459,30 @@ async function scheduleDailyQueue() {
     return;
   }
 
-  const today = new Date();
-  
-  for (let index = 0; index < ghazals.length; index++) {
-    const ghazal = ghazals[index];
-    const targetDate = new Date(today);
-    targetDate.setDate(today.getDate() + index);
+  // Continue the rotation from where it left off instead of restarting at
+  // index 0 anchored to "today" - that's what caused ghazals to be
+  // scheduled twice on different dates.
+  const countRes = await db.execute("SELECT COUNT(*) as c FROM daily_queue");
+  let cursor = Number(countRes.rows[0].c);
+
+  const lastRes = await db.execute("SELECT MAX(scheduled_date) as maxDate FROM daily_queue");
+  const lastDateStr = lastRes.rows[0].maxDate;
+  const startDate = lastDateStr ? new Date(lastDateStr + "T00:00:00Z") : new Date();
+  if (lastDateStr) startDate.setUTCDate(startDate.getUTCDate() + 1);
+
+  const daysToSchedule = 30; // keep a month of upcoming days pre-scheduled
+  for (let i = 0; i < daysToSchedule; i++) {
+    const targetDate = new Date(startDate);
+    targetDate.setUTCDate(startDate.getUTCDate() + i);
     const dateStr = targetDate.toISOString().split("T")[0];
+    const ghazal = ghazals[cursor % ghazals.length];
 
-    const existingRes = await db.execute({
-      sql: "SELECT id FROM daily_queue WHERE scheduled_date = ?",
-      args: [dateStr],
+    await db.execute({
+      sql: "INSERT OR IGNORE INTO daily_queue (ghazal_id, scheduled_date) VALUES (?, ?)",
+      args: [Number(ghazal.id), dateStr],
     });
-
-    if (existingRes.rows.length === 0) {
-      await db.execute({
-        sql: "INSERT INTO daily_queue (ghazal_id, scheduled_date) VALUES (?, ?)",
-        args: [Number(ghazal.id), dateStr],
-      });
-      console.log(`Scheduled Ghazal ID ${ghazal.id} for date: ${dateStr}`);
-    } else {
-      console.log(`Date ${dateStr} is already scheduled with Ghazal ID: ${existingRes.rows[0].ghazal_id}`);
-    }
+    console.log(`Scheduled Ghazal ID ${ghazal.id} for date: ${dateStr}`);
+    cursor++;
   }
 }
 

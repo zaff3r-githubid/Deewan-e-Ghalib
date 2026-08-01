@@ -35,6 +35,26 @@ if (action === "hide") {
         console.log(`  - Hid: ${target}`);
       }
     });
+
+    // Also comment out force-dynamic lines in page.js and archive/page.js
+    const filesToModify = [
+      path.join(appDir, "page.js"),
+      path.join(appDir, "archive/page.js")
+    ];
+
+    filesToModify.forEach((file) => {
+      if (fs.existsSync(file)) {
+        let content = fs.readFileSync(file, "utf8");
+        if (content.includes('export const dynamic = "force-dynamic";')) {
+          content = content.replace(
+            'export const dynamic = "force-dynamic";',
+            '// export const dynamic = "force-dynamic"; // HIDDEN FOR STATIC'
+          );
+          fs.writeFileSync(file, content, "utf8");
+          console.log(`  - Commented out force-dynamic in: ${path.relative(appDir, file)}`);
+        }
+      }
+    });
   } else {
     console.log("Dynamic server build detected. Keeping dynamic routes active.");
   }
@@ -60,6 +80,26 @@ if (action === "hide") {
       // ignore
     }
   }
+
+  // Always attempt to restore force-dynamic lines in page.js and archive/page.js
+  const filesToRestore = [
+    path.join(appDir, "page.js"),
+    path.join(appDir, "archive/page.js")
+  ];
+
+  filesToRestore.forEach((file) => {
+    if (fs.existsSync(file)) {
+      let content = fs.readFileSync(file, "utf8");
+      if (content.includes('// export const dynamic = "force-dynamic"; // HIDDEN FOR STATIC')) {
+        content = content.replace(
+          '// export const dynamic = "force-dynamic"; // HIDDEN FOR STATIC',
+          'export const dynamic = "force-dynamic";'
+        );
+        fs.writeFileSync(file, content, "utf8");
+        console.log(`  - Restored force-dynamic in: ${path.relative(appDir, file)}`);
+      }
+    }
+  });
 } else {
   console.error("Invalid action. Use 'hide' or 'restore'.");
   process.exit(1);

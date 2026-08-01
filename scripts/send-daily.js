@@ -24,7 +24,13 @@ const smtpPort = process.env.SMTP_PORT || 587;
 const smtpUser = process.env.SMTP_USER;
 const smtpPass = process.env.SMTP_PASS;
 const smtpFrom = process.env.SMTP_FROM || '"Deewan-e-Ghalib" <noreply@deewan-ghalib.com>';
-const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3033";
+// Resolve base app URL
+function getAppUrl(customUrl = null) {
+  if (customUrl) return customUrl.replace(/\/$/, "");
+  if (process.env.NEXT_PUBLIC_APP_URL) return process.env.NEXT_PUBLIC_APP_URL.replace(/\/$/, "");
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL.replace(/\/$/, "")}`;
+  return "http://localhost:3033";
+}
 
 const isSmtpConfigured = !!(smtpHost && smtpUser && smtpPass);
 
@@ -62,9 +68,9 @@ function fallbackEmailLog(to, subject, html) {
 }
 
 // Reuse poem HTML generator logic
-function generatePoemHtml(poemData, unsubscribeToken) {
+function generatePoemHtml(poemData, unsubscribeToken, baseUrl) {
   const { ghazal, couplets } = poemData;
-  const unsubscribeLink = `${appUrl}/unsubscribe?token=${unsubscribeToken}`;
+  const unsubscribeLink = `${baseUrl}/unsubscribe?token=${unsubscribeToken}`;
 
   const coupletsHtml = couplets
     .map((c) => {
@@ -162,9 +168,11 @@ function generatePoemHtml(poemData, unsubscribeToken) {
   `;
 }
 
-async function sendDailyPoemEmail(to, unsubscribeToken, poemData) {
+async function sendDailyPoemEmail(to, unsubscribeToken, poemData, baseUrl = null) {
+  const base = getAppUrl(baseUrl);
   const subject = `Deewan-e-Ghalib: Poem of the Day - ${poemData.ghazal.title}`;
-  const html = generatePoemHtml(poemData, unsubscribeToken);
+  const html = generatePoemHtml(poemData, unsubscribeToken, base);
+  const unsubscribeLink = `${base}/unsubscribe?token=${unsubscribeToken}`;
 
   if (isSmtpConfigured) {
     try {
@@ -173,6 +181,10 @@ async function sendDailyPoemEmail(to, unsubscribeToken, poemData) {
         to,
         subject,
         html,
+        headers: {
+          "List-Unsubscribe": `<${unsubscribeLink}>`,
+          "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+        }
       });
       console.log(`Successfully sent daily poem email to: ${to}`);
       return { success: true };
@@ -205,19 +217,27 @@ async function getPoemById(ghazalId) {
 
 async function getTodayPoem() {
   const todayStr = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
-  
+
+  const existing = await db.execute({
+    sql: "SELECT ghazal_id FROM daily_queue WHERE scheduled_date = ?",
+    args: [todayStr],
+  });
+  if (existing.rows[0]) return getPoemById(Number(existing.rows[0].ghazal_id));
+
   const ghazalsRes = await db.execute("SELECT id FROM ghazals ORDER BY id ASC");
   const ghazals = ghazalsRes.rows;
   if (ghazals.length === 0) return null;
 
-  const baseDate = new Date("2026-07-01T00:00:00Z");
-  const currentDate = new Date(todayStr + "T00:00:00Z");
-  const diffTime = currentDate.getTime() - baseDate.getTime();
-  const diffDays = Math.max(0, Math.floor(diffTime / (1000 * 60 * 60 * 24)));
-  const ghazalIdx = diffDays % ghazals.length;
-  const ghazalId = ghazals[ghazalIdx].id;
+  const countRes = await db.execute("SELECT COUNT(*) as c FROM daily_queue");
+  const idx = Number(countRes.rows[0].c) % ghazals.length;
+  const ghazalId = Number(ghazals[idx].id);
 
-  return getPoemById(Number(ghazalId));
+  await db.execute({
+    sql: "INSERT INTO daily_queue (ghazal_id, scheduled_date) VALUES (?, ?)",
+    args: [ghazalId, todayStr],
+  });
+
+  return getPoemById(ghazalId);
 }
 
 async function run() {

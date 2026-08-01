@@ -8,7 +8,13 @@ const smtpPort = process.env.SMTP_PORT || 587;
 const smtpUser = process.env.SMTP_USER;
 const smtpPass = process.env.SMTP_PASS;
 const smtpFrom = process.env.SMTP_FROM || '"Deewan-e-Ghalib" <noreply@deewan-ghalib.com>';
-const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3033";
+// Resolve base app URL
+function getAppUrl(customUrl = null) {
+  if (customUrl) return customUrl.replace(/\/$/, "");
+  if (process.env.NEXT_PUBLIC_APP_URL) return process.env.NEXT_PUBLIC_APP_URL.replace(/\/$/, "");
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL.replace(/\/$/, "")}`;
+  return "http://localhost:3033";
+}
 
 // Check if SMTP is configured
 const isSmtpConfigured = !!(smtpHost && smtpUser && smtpPass);
@@ -48,9 +54,9 @@ function fallbackEmailLog(to, subject, html) {
 }
 
 // Generate the beautiful HTML layout for the poem email
-function generatePoemHtml(poemData, unsubscribeToken) {
+function generatePoemHtml(poemData, unsubscribeToken, baseUrl) {
   const { ghazal, couplets } = poemData;
-  const unsubscribeLink = `${appUrl}/unsubscribe?token=${unsubscribeToken}`;
+  const unsubscribeLink = `${baseUrl}/unsubscribe?token=${unsubscribeToken}`;
 
   const coupletsHtml = couplets
     .map((c) => {
@@ -149,8 +155,8 @@ function generatePoemHtml(poemData, unsubscribeToken) {
 }
 
 // Generate the beautiful HTML layout for the welcome email
-function generateWelcomeHtml(unsubscribeToken) {
-  const unsubscribeLink = `${appUrl}/unsubscribe?token=${unsubscribeToken}`;
+function generateWelcomeHtml(unsubscribeToken, baseUrl) {
+  const unsubscribeLink = `${baseUrl}/unsubscribe?token=${unsubscribeToken}`;
 
   return `
     <!DOCTYPE html>
@@ -205,9 +211,11 @@ function generateWelcomeHtml(unsubscribeToken) {
 }
 
 // Function: Send Daily Poem Email
-export async function sendDailyPoemEmail(to, unsubscribeToken, poemData) {
+export async function sendDailyPoemEmail(to, unsubscribeToken, poemData, baseUrl = null) {
+  const base = getAppUrl(baseUrl);
   const subject = `Deewan-e-Ghalib: Poem of the Day - ${poemData.ghazal.title}`;
-  const html = generatePoemHtml(poemData, unsubscribeToken);
+  const html = generatePoemHtml(poemData, unsubscribeToken, base);
+  const unsubscribeLink = `${base}/unsubscribe?token=${unsubscribeToken}`;
 
   if (isSmtpConfigured) {
     try {
@@ -216,6 +224,10 @@ export async function sendDailyPoemEmail(to, unsubscribeToken, poemData) {
         to,
         subject,
         html,
+        headers: {
+          "List-Unsubscribe": `<${unsubscribeLink}>`,
+          "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+        }
       });
       console.log(`Successfully sent daily poem email to: ${to}`);
       return { success: true };
@@ -230,9 +242,11 @@ export async function sendDailyPoemEmail(to, unsubscribeToken, poemData) {
 }
 
 // Function: Send Welcome Email
-export async function sendWelcomeEmail(to, unsubscribeToken) {
+export async function sendWelcomeEmail(to, unsubscribeToken, baseUrl = null) {
+  const base = getAppUrl(baseUrl);
   const subject = "Welcome to Deewan-e-Ghalib: Your Daily Poem Subscription";
-  const html = generateWelcomeHtml(unsubscribeToken);
+  const html = generateWelcomeHtml(unsubscribeToken, base);
+  const unsubscribeLink = `${base}/unsubscribe?token=${unsubscribeToken}`;
 
   if (isSmtpConfigured) {
     try {
@@ -241,6 +255,10 @@ export async function sendWelcomeEmail(to, unsubscribeToken) {
         to,
         subject,
         html,
+        headers: {
+          "List-Unsubscribe": `<${unsubscribeLink}>`,
+          "List-Unsubscribe-Post": "List-Unsubscribe=One-Click"
+        }
       });
       console.log(`Successfully sent welcome email to: ${to}`);
       return { success: true };

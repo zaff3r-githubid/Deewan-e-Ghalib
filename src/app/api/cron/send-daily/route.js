@@ -33,11 +33,15 @@ export async function GET(request) {
     }
 
     // 3. Send email to each subscriber
+    const protocol = request.headers.get("x-forwarded-proto") || "http";
+    const host = request.headers.get("host") || "localhost:3033";
+    const baseUrl = `${protocol}://${host}`;
+
     let successCount = 0;
     let failCount = 0;
     const results = [];
     for (const sub of subscribers) {
-      const emailRes = await sendDailyPoemEmail(sub.email, sub.token, poemData);
+      const emailRes = await sendDailyPoemEmail(sub.email, sub.token, poemData, baseUrl);
       if (emailRes.success) {
         successCount++;
       } else {

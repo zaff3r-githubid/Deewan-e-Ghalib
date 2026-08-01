@@ -18,8 +18,13 @@ export async function POST(request) {
     const res = await subscribeEmail(cleanedEmail);
 
     if (res.success) {
+      // Resolve base URL dynamically from request headers
+      const protocol = request.headers.get("x-forwarded-proto") || "http";
+      const host = request.headers.get("host") || "localhost:3033";
+      const baseUrl = `${protocol}://${host}`;
+
       // Send welcome email
-      const welcomeRes = await sendWelcomeEmail(cleanedEmail, res.token);
+      const welcomeRes = await sendWelcomeEmail(cleanedEmail, res.token, baseUrl);
       return NextResponse.json({
         success: true,
         message: res.isNew 

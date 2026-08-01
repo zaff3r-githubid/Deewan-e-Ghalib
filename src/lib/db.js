@@ -126,50 +126,49 @@ export async function getPoemById(ghazalId) {
   return { ghazal, couplets };
 }
 
-// Helper: Get today's daily poem
-export async function getTodayPoem() {
-  const todayStr = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
-  
+// Helper: Get (or persist) the ghazal scheduled for a given date, cycling
+// through every ghazal exactly once before any repeat. The rotation cursor
+// is the number of dates already scheduled, so it only moves forward -
+// unlike a date-diff formula it never reshuffles past assignments when the
+// ghazal pool grows.
+async function assignGhazalForDate(dateStr) {
+  const existing = await db.execute({
+    sql: "SELECT ghazal_id FROM daily_queue WHERE scheduled_date = ?",
+    args: [dateStr],
+  });
+  if (existing.rows[0]) return Number(existing.rows[0].ghazal_id);
+
   const ghazalsRes = await db.execute("SELECT id FROM ghazals ORDER BY id ASC");
   const ghazals = ghazalsRes.rows;
   if (ghazals.length === 0) return null;
 
-  const baseDate = new Date("2026-07-01T00:00:00Z");
-  const currentDate = new Date(todayStr + "T00:00:00Z");
-  const diffTime = currentDate.getTime() - baseDate.getTime();
-  const diffDays = Math.max(0, Math.floor(diffTime / (1000 * 60 * 60 * 24)));
-  const ghazalIdx = diffDays % ghazals.length;
-  const ghazalId = ghazals[ghazalIdx].id;
+  const countRes = await db.execute("SELECT COUNT(*) as c FROM daily_queue");
+  const idx = Number(countRes.rows[0].c) % ghazals.length;
+  const ghazalId = Number(ghazals[idx].id);
 
-  return getPoemById(Number(ghazalId));
+  await db.execute({
+    sql: "INSERT INTO daily_queue (ghazal_id, scheduled_date) VALUES (?, ?)",
+    args: [ghazalId, dateStr],
+  });
+  return ghazalId;
 }
 
-// Helper: Get all past daily poems
+// Helper: Get today's daily poem
+export async function getTodayPoem() {
+  const todayStr = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+  const ghazalId = await assignGhazalForDate(todayStr);
+  if (!ghazalId) return null;
+  return getPoemById(ghazalId);
+}
+
+// Helper: Get all past daily poems (daily_queue is the authoritative history)
 export async function getArchive() {
-  const todayStr = new Date().toISOString().split("T")[0];
-  const ghazalsRes = await db.execute("SELECT * FROM ghazals ORDER BY id ASC");
-  const ghazals = ghazalsRes.rows.map((row) => ({ ...row }));
-  if (ghazals.length === 0) return [];
-
-  const baseDate = new Date("2026-07-01T00:00:00Z");
-  const currentDate = new Date(todayStr + "T00:00:00Z");
-  const archive = [];
-
-  let tempDate = new Date(currentDate);
-  while (tempDate >= baseDate) {
-    const tempDateStr = tempDate.toISOString().split("T")[0];
-    const diffTime = tempDate.getTime() - baseDate.getTime();
-    const diffDays = Math.max(0, Math.floor(diffTime / (1000 * 60 * 60 * 24)));
-    const ghazalIdx = diffDays % ghazals.length;
-    const ghazal = { ...ghazals[ghazalIdx] };
-    
-    ghazal.scheduled_date = tempDateStr;
-    archive.push(ghazal);
-
-    tempDate.setDate(tempDate.getDate() - 1);
-  }
-
-  return archive;
+  const res = await db.execute(`
+    SELECT g.*, dq.scheduled_date FROM daily_queue dq
+    JOIN ghazals g ON g.id = dq.ghazal_id
+    ORDER BY dq.scheduled_date DESC
+  `);
+  return res.rows.map((row) => ({ ...row }));
 }
 
 // Helper: Subscribe Email

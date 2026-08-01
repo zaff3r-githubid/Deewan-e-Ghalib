@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { getTodayPoem } from "@/lib/db";
 import PoemClientView from "./PoemClientView";
 
